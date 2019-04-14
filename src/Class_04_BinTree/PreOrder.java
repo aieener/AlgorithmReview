@@ -47,4 +47,14 @@ public class PreOrder {
         }
         return res;
     }
+
+    //---DFS鼻祖printPreorder
+    public void printTreePreOrder(TreeNode root) {
+        if(root == null) {
+            return;
+        }
+        System.out.println(root.key);
+        printTreePreOrder(root.left);
+        printTreePreOrder(root.right);
+    }
 }

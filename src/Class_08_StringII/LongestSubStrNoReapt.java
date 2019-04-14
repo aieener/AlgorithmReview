@@ -1,5 +1,7 @@
 package Class_08_StringII;
 
+import org.omg.CORBA.MARSHAL;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -8,31 +10,32 @@ public class LongestSubStrNoReapt {
      * This one is very tricky !
      * A Classical Sliding Window Prob
      * Using sliding window!!
+     *
+     * Last review April 14 2019
      */
     public int longest(String input) {
-        int globalMax = 1;
-        int f = 0;
-        int s = 0;
-        char[] array = input.toCharArray();
-        Set<Character> set = new HashSet<>();
-        while(f < array.length){
-            if(set.contains(array[f])){
-                set.remove(array[s]);
-                s++;
-            } else {
-                set.add(array[f]);
-                f++;
-                globalMax = Math.max(globalMax, f - s);
-            }
+      if(input == null || input.length() == 0) {
+          return 0;
+      }
+      Set<Character> validator = new HashSet<>();
+      int res = Integer.MIN_VALUE;
+      int slow = 0;
+      for(int fast = 0; fast < input.length(); fast++) {
+        if (validator.contains(input.charAt(fast))) {
+          validator.remove(input.charAt(slow));
+          slow++;
         }
-        return globalMax;
+        validator.add(input.charAt(fast));
+        res = Math.max(res, validator.size());
+      }
+      return res;
     }
+
 
     public static void main(String[] args) {
         LongestSubStrNoReapt ls =new LongestSubStrNoReapt();
-        String input = "efhrgsayfkasdanfev";
+        String input = "abcdacef";
         int out = ls.longest(input);
         System.out.println(out);
     }
-    //-- prac ---
 }

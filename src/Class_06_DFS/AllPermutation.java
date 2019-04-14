@@ -5,151 +5,92 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
+/**
+ * * Sun: DFS comes from AI, to
+ * Recursion vs DFS
+ * DFS, in more general scope, it is one kind of search alg
+ * DFS can be implemented in either recursive way or in iterate way
+ * <p>
+ * Back-tracking vs DFS (back-traking is like a nickname)
+ * Back-tracking describes the behavior of DFS (From AI Books)
+ * <p>
+ * DFS 一定是在一个recur里面调用自己两次或两次以上
+ * this is due to Von Nioman architecture that is single threaded
+ * 一个叉的树跑，其他的挂起, 一头扎到底， 触底反弹
+ * <p>
+ * 最大的DFS鼻祖题: printTreePreOrder use recursion! DFS EX 0
+ * <p>
+ * DFS 基本方法：
+ * 1. what does it store on each level? (每层代表什么意义， 一般解题前就知道DFS要recur多少层)
+ * 2. how many different states should we try to put on this level
+ */
+
+/**
+ * DFS EX 4
+ * Whenever every single permutation contains all elements in the initial input, then
+ * you should consider SWAP and SWAP approach
+ * ex．　Ｎ个磁铁，某些相互排斥，能不能找出一种排列可以放在箱子里两辆不排斥
+ * for (int i = index; i < input.length; i++) {
+ * if(do not conflict) { // <--- apply rules here
+ * swap(input, index, i);
+ * Perm(input, index + 1);
+ * swap(input, index, i); //回复母节点状态
+ * }
+ * }
+ * given a string with non dup letters, print out all permutations
+ * Last review Mar 13 2019
+ * Notes from Class 7_DFS_Sun
+ * <p>
+ * 1. what does it store on each level? (每层代表什么意义， 一般解题前就知道DFS要recur多少层)
+ * the length of the input string
+ * 2. how many different states should we try to put on this level
+ * first layer 3, second 3*2, third 3 * 2 * 1
+ * <p>
+ * input                        abc
+ * L0           a(rem=bc)           b(rem=ac)        c(rem=ba)
+ * L1      b(rem=c) c(rem=b)    a(rem=c)  c(rem=a)    ....
+ * L2
+ * <p>
+ * Space = O(n)
+ * Time = O(n!)
+ */
 public class AllPermutation {
-    // My Sol, idea from NineChapter
-    public List<String> permutation(String set){
-        List<String> res = new ArrayList<>();
-        if(set == null){
-            return res;
-        }
-        if(set == ""){
-            res.add("");
-            return res;
-        }
-        StringBuilder list = new StringBuilder();
-        HashSet<Character>  hashset = new HashSet<>();
-        dfs(set, res, list, hashset);
-        return res;
+  // in class sol swap swap trick
+  // when delete letter, DON't Delete letter in the middle!!! O(n) expensive !
+
+  public List<String> permutations(String set) {
+    List<String> res = new ArrayList<>();
+    if (set == null) return res;
+    permutations(res, 0, set.toCharArray());
+    return res;
+  }
+
+  private void permutations(List<String> res, int level, char[] input) {
+    // base case
+    if (level == input.length) {
+      res.add(new String(input));
     }
 
-    private void dfs(String set, List<String> res,
-                     StringBuilder list, HashSet<Character> hashset){
-        // base case
-        if(list.length() == set.length()){
-            res.add(list.toString());
-            return;
-        }
-
-        for(int i = 0; i < set.length(); i++) {
-            if(hashset.contains(set.charAt(i))){
-                continue;
-            }
-            hashset.add(set.charAt(i));
-            list.append(set.charAt(i));
-            dfs(set, res, list, hashset);
-            hashset.remove(set.charAt(i));
-            list.deleteCharAt(list.length() - 1);
-        }
+    for (int i = level; i < input.length; i++) {
+      swap(input, level, i);
+      permutations(res, level + 1, input);
+      swap(input, level, i);
     }
+  }
 
-    //--------- LaiOfferSol with order --------------
-    public List<String> permutationsWithOrder(String set){
-        List<String> result = new ArrayList<>();
-        if(set == null) {
-            return null;
-        }
-        char [] arraySet = set.toCharArray();
-        Arrays.sort(arraySet);
+  private void swap(char[] input, int l, int r) {
+    char buf = input[l];
+    input[l] = input[r];
+    input[r] = buf;
+  }
 
-        // record which index has been used in the original arraySet
-        boolean[] used = new boolean[arraySet.length];
-        StringBuilder cur = new StringBuilder();
-        helperWithOrder(arraySet, used, cur, result);
-        return result;
-    }
-
-    private void helperWithOrder(char[] array, boolean[] used, StringBuilder cur,
-                                 List<String> result){
-        // term condition
-        if(cur.length() == array.length){
-            result.add(cur.toString());
-            return;
-        }
-        // when picking the next char, always according to the order
-        for(int i = 0; i < array.length; i++){
-            if(!used[i]) {
-                used[i] = true;
-                cur.append(array[i]);
-                helperWithOrder(array, used, cur, result);
-                // 回溯
-                used[i] = false;
-                cur.deleteCharAt(cur.length() - 1);
-            }
-        }
-    }
-    //-------------- LaiOffer Sol 2 swap swap---------
-    // 需要加强复习此方法
-    public List<String> permutationsLai(String set) {
-        List<String> result = new ArrayList<>();
-        if ( set == null) {
-            return result;
-        }
-        char[] array = set.toCharArray();
-        helper(array, 0, result);
-        return result;
-    }
-
-    private void helper(char[] array, int idx, List<String> result) {
-        if(idx == array.length) {
-            result.add(new String(array));
-            return;
-        }
-
-        // all the possible char could be placed at idx are the char
-        // in the subarray (idx, array.length - 1)
-        for(int i = idx; i < array.length; i++) {
-            swap(array, idx, i);
-            helper(array, idx + 1, result);
-            // swap back when track to previous level
-            swap(array, idx, i);
-        }
-    }
-
-    private void swap(char[] array, int left, int right) {
-        char tmp = array[left];
-        array[left] = array[right];
-        array[right] = tmp;
-    }
-
-    public static void main(String[] args) {
-        AllPermutation ap = new AllPermutation();
-        String input = "abc";
-        List<String > res = ap.permutation(input);
-        List<String > res2 = ap.permutationsWithOrder(input);
-//        List<String > res3 = ap.permutationsLai(input);
-        List<String > res3 = ap.permutations2(input);
-        System.out.println(res);
-        System.out.println(res2);
-        System.out.println(res3);
-    }
-
-    //--- prac ---
-    public List<String> permutations2(String set) {
-        List<String > res = new ArrayList<>();
-        if(set == null) {
-            return res;
-        }
-        char[] array = set.toCharArray();
-        dfs2(res, array, 0 );
-        return res;
-    }
-
-    private void dfs2(List<String> res, char[] array, int idx) {
-        // base case
-        if(idx == array.length) {
-            return ;
-        }
-        for(int i = idx ; i < array.length; i++) {
-            swap2(array, idx, i);
-            dfs2(res, array, idx + 1);
-            swap2(array, idx, i);
-        }
-    }
-
-    private void swap2 (char[] array, int l, int r) {
-        char tmp = array[l];
-        array[l] = array[r];
-        array[r] = tmp;
-    }
-
+  public static void main(String[] args) {
+    AllPermutation ap = new AllPermutation();
+    String input = "abc";
+//        List<String> res = ap.permutation(input);
+//        List<String> res2 = ap.permutationsWithOrder(input);
+////        List<String > res3 = ap.permutationsLai(input);
+    System.out.println(ap.permutations(input));
+//        System.out.println(res2);
+  }
 }

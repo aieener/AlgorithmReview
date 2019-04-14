@@ -1,129 +1,108 @@
 package Class_08_StringII;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
- * This one is HARD
- * Need revisit!! Jan 19
+ * last visit April 12 2019
+ * took about 2 hours to debug..
+ *
+ * current version uses same scan direction for both cases
  */
 public class StringReplace {
-    /**
-     * LaiOfferSol
-     */
-    public String replace(String input, String s, String t) {
-        if(s.length() > t.length()){
-            return replaceSmall(input, s, t);
-        } else {
-            return replaceBig(input, s, t);
-        }
+  public String replace(String input, String source, String target) {
+    char[] inputArray = input.toCharArray();
+    if (source.length() >= target.length()) {
+      return handleSourceIsLonger(inputArray, source, target);
     }
+    return handleTargetIsLonger(inputArray, source, target);
+  }
 
-    private boolean isEqual(char[] input, int idx, String s){
-        // this function checks from idx --> if there is a match
-        for(int i = 0; i < s.length(); i++) {
-            if(input[idx + i] != s.charAt(i)){
-                return false;
-            }
-        }
-        return true;
+  private String handleSourceIsLonger(char[] input, String source, String target) {
+    int slow = 0;
+    int fast = 0;
+    slow = copyFastToSlowOrSubstitute(input, source, target, slow, fast);
+    return new String(input, 0, slow);
+  }
+
+  private int copyFastToSlowOrSubstitute(char[] input, String source, String target, int slow, int fast) {
+    while (fast < input.length) {
+      if (isSubstring(input, fast, source)) {
+        substitute(input, slow, target);
+        fast += source.length();
+        slow += target.length();
+      } else {
+        input[slow++] = input[fast++];
+      }
     }
+    return slow;
+  }
 
-    private void copySubstring(char[] input, int idx, String t) {
-        for(int i  =0; i < t.length(); i++) {
-            input[idx + i] = t.charAt(i);
-        }
-        return;
+  private String handleTargetIsLonger(char[] input, String source, String target) {
+    int diff = target.length() - source.length();
+    Set<Integer> occurSet = findNumOfOccurSet(input, source);
+    int bufSize = diff * occurSet.size();
+    int resSize = input.length + bufSize;
+
+    char[] res = new char[resSize];
+    cpyInputToRes(res, input);
+    int slow = 0;
+    int fast = bufSize;
+    while(fast < resSize) {
+      if(occurSet.contains(fast - bufSize)) {
+        substitute(res, slow, target);
+        slow += target.length();
+        fast += source.length();
+      } else {
+        res[slow++] = res[fast++];
+      }
     }
+    return new String(res);
+  }
 
-    private String replaceSmall(String input, String s, String t) {
-        // apple --> cat
-        // the original String become shorter
-        int slow = 0;
-        int fast = 0;
-        char[] array = input.toCharArray();
-
-        while(fast < array.length){
-            if(fast <= array.length - s.length() && isEqual(array, fast, s)){
-                // do the replace
-                copySubstring(array,slow, t);
-                slow += t.length();
-                fast += s.length();
-            } else {
-                array[slow++] = array[fast++];
-            }
-        }
-
-        return new String(array, 0, slow);
+  private void cpyInputToRes(char[] res, char[] input) {
+    for (int i = 0; i < input.length; i++) {
+      res[res.length - 1 - i] = input[input.length - 1 - i];
     }
+  }
 
-    private String replaceBig(String input, String s, String t) {
-        // cat -- > apple
-        // t.len > s.len
-        // the original String become longer
-        char[] array = input.toCharArray();
-        List<Integer> matches = getAllMatches(array, s);
-        int len = input.length() + matches.size() * (t.length() - s.length());
-
-        char[] res = new char[len];
-        int lastIdx = matches.size() - 1;
-        // fast: the pos when traversing the old len
-        // slow: the pos when traversing the new len
-        int fast = array.length - 1;
-        int slow = res.length - 1;
-
-        while(fast >=0){
-            if(lastIdx >= 0 && fast == matches.get(lastIdx)){
-                copySubstring(res,slow - t.length() + 1, t);
-                slow -= t.length();
-                fast -= s.length();
-                lastIdx--;
-            } else {
-                res[slow--] = array[fast--];
-            }
-        }
-        return new String(res);
+  private void substitute(char[] input, int start, String target) {
+    for (int i = 0; i < target.length(); i++) {
+      input[start + i] = target.charAt(i);
     }
+  }
 
-    private List<Integer> getAllMatches(char[] input, String s) {
-        // record all matches of s end position in input
-        List<Integer> matches = new ArrayList<>();
-        int i = 0;
-        while( i <= input.length - s.length()){
-            if(isEqual(input, i, s)){
-                // end position
-                matches.add(i + s.length() - 1);
-                i += s.length();
-            } else {
-                i++;
-            }
-        }
-        return matches;
+  private Set<Integer> findNumOfOccurSet(char[] input, String source) {
+    Set<Integer> res = new HashSet<>();
+    for (int i = 0; i < input.length - source.length() + 1; i++) {
+      if (isSubstring(input, i, source)) {
+        res.add(i);
+        i += source.length() - 1;
+      }
     }
+    return res;
+  }
 
-    /**
-     * LaiOffer Sol2
-     * StringBuilder
-     */
-    public String replce2(String input, String s, String t) {
-        StringBuilder sb = new StringBuilder();
-        int fromIndex = 0;
-        int matchIdx = input.indexOf(s, fromIndex);
-        while(matchIdx != -1) {
-            sb.append(input, fromIndex, matchIdx).append(t);
-            fromIndex = matchIdx + s.length();
-            matchIdx = input.indexOf(s, fromIndex);
-        }
-        sb.append(input, fromIndex, input.length());
-        return sb.toString();
+  private boolean isSubstring(char[] input, int start, String source) {
+    for (int i = 0; i < source.length(); i++) {
+      if (start + i >= input.length) return false;
+      if (input[start + i] != source.charAt(i)) return false;
     }
+    return true;
+  }
 
-    public static void main(String[] args) {
-        StringReplace sr = new StringReplace();
-        String input = "Student";
-        String s = "den";
-        String t = "xxxx";
-        String out  = sr.replace(input, s, t);
-        System.out.println(out);
-    }
+
+  public static void main(String[] args) {
+    StringReplace sr = new StringReplace();
+    String input = "Studentdentdendent";
+    String s = "den";
+    String t = "xx";
+    String out = sr.replace(input, s, t);
+    System.out.println(out);
+
+    input = "aaa";
+    s = "aa";
+    t = "";
+    System.out.println(sr.replace(input, s, t));
+  }
 }

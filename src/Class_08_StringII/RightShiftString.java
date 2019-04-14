@@ -1,105 +1,45 @@
 package Class_08_StringII;
 
 public class RightShiftString {
-    /**
-     * My Sol
-     */
-    // Yahoo --> 3 -->ooYah
-    public String rightShift(String input, int n){
-        if(input == null || input.length() == 0) {
-            return input;
-        }
-        int offset = n % input.length();
-        if(offset == 0) {
-            return input;
-        }
-        char[] array = input.toCharArray();
-        for(int i = 0; i < offset; i++) {
-            shiftToright(array);
-        }
-        return new String(array);
+  /**
+   * updated April 13 2019
+   */
+  public String rightShift(String input, int n) {
+    if (input == null || input.length() == 0) return input;
+    // step 1 find index
+    int posToSwap = findIdx(input.length(), n);
+    // step 2 I love Yahoo
+    char[] inputArray = input.toCharArray();
+    swapString(inputArray, posToSwap);
+
+    return new String(inputArray);
+  }
+
+  private void swapString(char[] input, int posToSwap) {
+    System.out.println(posToSwap);
+    reverse(input, 0, posToSwap - 1);
+    reverse(input, posToSwap, input.length - 1);
+    reverse(input, 0, input.length - 1);
+  }
+
+  private void reverse(char[] input, int start, int end) {
+    while (end < input.length && start < end) {
+      swap(input, start++, end--);
     }
+  }
 
-    public String leftShift(String input, int n){
-        if(input == null || input.length() == 0) {
-            return input;
-        }
-        int offset = n % input.length();
-        if(offset == 0) {
-            return input;
-        }
-        char[] array = input.toCharArray();
-        for(int i = 0; i < offset; i++) {
-            shiftToleft(array);
-        }
+  private void swap(char[] input, int left, int right) {
+    char buf = input[left];
+    input[left] = input[right];
+    input[right] = buf;
+  }
 
-        return new String(array);
-    }
+  private int findIdx(int inputLen, int n) {
+    return ((inputLen - n) % inputLen + inputLen) % inputLen;
+  }
 
-    private void shiftToright(char [] array) {
-        // Yahoo --> oYaho
-        char last = array[array.length - 1];
-        int s = array.length - 1;
-        int f = array.length - 2;
-        while(f >=0){
-            array[s--] =  array[f--];
-        }
-        array[0] = last;
-    }
-
-    private void shiftToleft(char[] array) {
-        // Yahoo --> ahooY
-        char first = array[0];
-        int s = 0;
-        int f = 1;
-        while(f < array.length) {
-            array[s++] = array[f++];
-        }
-        array[array.length - 1] = first;
-    }
-
-
-    //---------------------------
-
-    /**
-     * LaiOfferSol
-     * reverse three times! 3 step reverse!
-     */
-    public String rightShift2(String input, int n) {
-        if(input.length() <= 1) {
-            return input;
-        }
-        char[] array = input.toCharArray();
-        int offset = n % array.length;
-
-        reverse(array, array.length - offset, array.length - 1);
-        reverse(array, 0, array.length - offset - 1);
-        reverse(array, 0, array.length - 1);
-        // shift to left
-//        reverse(array, 0, offset - 1);
-//        reverse(array, offset , array.length - 1);
-//        reverse(array, 0, array.length - 1);
-        return new String (array);
-    }
-
-    private void reverse(char [] array, int start, int end){
-        int l = start;
-        int r = end;
-        while( l < r) {
-            swap(array, l++, r--);
-        }
-    }
-
-    private void swap (char [] array, int l, int r) {
-        char temp = array[l];
-        array[l] = array[r];
-        array[r] = temp;
-    }
-
-    public static void main(String[] args) {
-        RightShiftString rs = new RightShiftString();
-        String input = "YahooGoogle";
-        String out = rs.rightShift2(input,2);
-        System.out.println(out);
-    }
+  public static void main(String[] args) {
+    RightShiftString engine = new RightShiftString();
+    System.out.println(engine.rightShift("abcdefg", 39));
+  }
 }

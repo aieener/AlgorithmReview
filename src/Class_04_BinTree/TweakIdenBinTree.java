@@ -2,6 +2,10 @@ package Class_04_BinTree;
 
 /**
  * 比Symmetric 多了一个或
+ * time complexity:
+ * branching factor :　４ 每一層4個叉
+ * level : log n
+ * T(n) = 1 + 4 + 4^2 + 4^3 + ... + 4 ^ (logn) ==>  2 ^ (2logn) = 2 ^ (logn^2) = n^2
  */
 public class TweakIdenBinTree {
     public boolean isTweakedIdentical(TreeNode one, TreeNode two) {

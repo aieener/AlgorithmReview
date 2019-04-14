@@ -4,11 +4,45 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * DFS EX 1
+ * Last Review Mar 13, 2019
  * Subset do i + 1
  * Permutation do idx + 1
+ *
+ * Note from class Mar 13 2019::
+ * DFS: {a, b, c}
+ *  1. what does it store on each level? (每层代表什么意义， 一般解题前就知道DFS要recur多少层)
+ *          three levels
+ *  2. how many different states should we try to put on this level
+ *          two states, take A or Not take A, 加A 不加A
+ *                            {}
+ *   a             {a}                   {}
+ *   b      {a,b}       {a}         {b}      {}
+ *   c  {a,b,c} {a,b} {a} {a,c}  {bc} {b}  {c} ｛｝
+ *
+ *   DFS Time complecity must be exponential of factorial!
+ *   DFS 一定不是 polynomial!
  */
 
 public class AllSubsets {
+
+    // in class example 在最后一层打印subset
+    // Time O(2^n)
+    // space O(n) n is 层数
+    public void printSubSet(char [] input, int layerIdx, StringBuilder solPrefix) {
+        if(layerIdx == input.length) {
+            System.out.println(solPrefix);
+        }
+
+        // case 1 : add A
+        solPrefix.append(input[layerIdx]);
+        printSubSet(input, layerIdx + 1, solPrefix);
+        solPrefix.deleteCharAt(solPrefix.length() - 1); // back track
+        // if don't do this, they will all be adding A!
+
+        // case 2: don't add A
+        printSubSet(input, layerIdx + 1, solPrefix);
+    }
     /**
      * NineChap Sol
      * @param set
