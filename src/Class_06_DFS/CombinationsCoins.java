@@ -25,52 +25,34 @@ import java.util.List;
  *  1
  */
 public class CombinationsCoins {
-    // in class example
-    public void findCombinatino(int moneyLeft, int level, int[] sol) {
-        if(level == 3) {
-            sol[level] = moneyLeft;
-            // print sol here and return
-        }
-        for(int i = 0; sol[level] * i <= moneyLeft; i++) {
-            sol[level] = i; // because this is not container class, we just override array value here
-            findCombinatino(moneyLeft - sol[level] * i, level + 1, sol);
-//            sol[level] = 0; // back track, not necessary for non-container class
-        }
+    public List<List<Integer>> combinations(int target, int[] coins) {
+        // Write your solution here
+      List<List<Integer>> res = new ArrayList<>();
+      List<Integer> curSol = new ArrayList<>();
+      dfs(res, curSol, coins, target, 0);
+      return res;
     }
 
-    public List<List<Integer>> combinations(int target, int [] coins) {
-        List<List<Integer>> res = new ArrayList<>();
-        List<Integer> cur = new ArrayList<>();
-        dfs(coins, target, res, cur, 0);
-        return res;
-    }
+    private void dfs(List<List<Integer>> res, List<Integer> curSol, int[] coins, int remain, int level) {
+      // base case
+      if(level == coins.length) {
+        if(remain == 0) {
+          res.add(new ArrayList<>(curSol));
+        }
+        return;
+      }
 
-    private void dfs(int[] coins, int target, List<List<Integer>> res, List<Integer> cur, int idx){
-        // base case
-        if(idx == coins.length - 1){
-            if(target % coins[coins.length - 1] == 0){
-                cur.add(target / coins[coins.length - 1]);
-                res.add(new ArrayList<>(cur));
-                cur.remove(cur.size() - 1);
-            }
-            return;
-        }
-        // for coins[idx], we can pick 0, 1, 2, ... , target / coins[idx] coins
-        int max = target / coins[idx]; // ths max is the number of branch at each level
-        for(int i = 0; i <= max; i++){
-            cur.add(i);
-            dfs(coins,target - i * coins[idx], res, cur,idx + 1);
-            cur.remove(cur.size() - 1);
-        }
+      int maxCurValue = remain / coins[level];
+      for(int i = 0; i <= maxCurValue; i++) {
+        curSol.add(i);
+        dfs(res, curSol, coins, remain - i * coins[level], level + 1);
+        curSol.remove(curSol.size() - 1);
+      }
     }
 
     public static void main(String[] args) {
         CombinationsCoins cc = new CombinationsCoins();
         List<List<Integer>> res = cc.combinations(4, new int[]{2,1});
         System.out.println(res);
-
     }
-
-    // --- prac ---
-
 }

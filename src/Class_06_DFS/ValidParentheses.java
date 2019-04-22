@@ -14,88 +14,64 @@ import java.util.List;
  * 6 levels, each level represents each position ---> base case controls this
  * 2. how many different states should we try to put on this level
  * 2 branches either use ( or ) ----> function body controls this
- *
+ * <p>
  * If not container like array, maybe there is no need to back-track!
  * T = O(2^2n)
  * S = O(2n)
  * 没思路， 参考了答案， 需要重做 Jan 2
  * 需要再多思考几遍！
+ *
+ * curSol could be StringBuilder ---> this case we need to back track
+ * curSol could also be char[] ---> this case we don't need to back track
  */
 public class ValidParentheses {
-    // in class example n = 3 ,l ( r )
-    private void DFS(int n, int l, int r, StringBuilder solPrefix) {
-        // n == 3, l == 0, r == 0
-        if (l + r == 2 * n) {
-            // base case
-            System.out.println(solPrefix);
-            return;
-        }
+  // in class example n = 3 ,l ( r )
+  public List<String> validParentheses(int n) {
+    List<String> result = new ArrayList<>();
+    char[] curSol =new char[n * 2];
+    dfs(result, curSol, 0, 0, n, 0);
+    return result;
+  }
 
-        if (l < n) {
-            solPrefix.append("(");
-            DFS(n, l + 1, r, solPrefix);
-            solPrefix.deleteCharAt(solPrefix.length() - 1);
-        }
-
-        if (l > r) {
-            solPrefix.append(")");
-            DFS(n, l, r + 1, solPrefix);
-            solPrefix.deleteCharAt(solPrefix.length() - 1);
-        }
+  // left is the number of ( we have used
+  private void dfs(List<String> result, char[] curSol, int left, int right, int n, int level) {
+    // base case
+    if (level == 2*n) {
+      result.add(new String(curSol));
+      return;
     }
 
-    public List<String> validParentheses(int n) {
-        List<String> result = new ArrayList<>();
-        // the final string contains 2n char
-        char[] cur = new char[n * 2];
-        helper(cur, n, n, 0, result);
-        return result;
+    // add left
+    if (left < n) {
+      curSol[level] = '(';
+      dfs(result, curSol, left + 1, right, n, level + 1);
     }
 
-    // left: how many ( we sill have
-    // right: how many ) we still have
-    // index: the cur position we want to fill in with
-
-    private void helper(char[] cur, int left, int right, int index
-            , List<String> result) {
-        // the termination condition
-        if (left == 0 && right == 0) {
-            result.add(new String(cur));
-            return;
-        }
-
-        // when we can add a ( ? whenever there is some ( we can still use!
-        if (left > 0) {
-            cur[index] = '(';
-            helper(cur, left - 1, right, index + 1, result);
-        }
-
-        // when we can add a ) ? when there is more ( than ) used!
-        if (right > left) {
-            cur[index] = ')';
-            helper(cur, left, right - 1, index + 1, result);
-        }
-
-
-        // why even there is no back tracking, the code is till working?
-        /**
-         * 1. we are setting the char at index and when back tracking, what we need
-         * is just 1) remove the char at index and 2) add a different char at index
-         * 2. only when we fill in all the position in cur, we have a complete solution
-         *
-         * The code itself actually already suffices the above two points and is already does
-         * the correct removing operation when back tracked to the previous level
-         */
+    // add right
+    if (right < n && left > right) {
+      curSol[level] = ')';
+      dfs(result, curSol, left, right + 1, n, level + 1);
     }
+  }
 
-    public static void main(String[] args) {
-        ValidParentheses vp = new ValidParentheses();
-        List<String> res = vp.validParentheses(3);
-        System.out.println(res);
-    }
 
-    // --- prac ---
+  // why even there is no back tracking, the code is till working?
 
-    //--------------------------------------------
+  /**
+   * 1. we are setting the char at index and when back tracking, what we need
+   * is just 1) remove the char at index and 2) add a different char at index
+   * 2. only when we fill in all the position in cur, we have a complete solution
+   * <p>
+   * The code itself actually already suffices the above two points and is already does
+   * the correct removing operation when back tracked to the previous level
+   */
+
+  public static void main(String[] args) {
+    ValidParentheses vp = new ValidParentheses();
+    List<String> res = vp.validParentheses(3);
+    System.out.println(res);
+  }
+
+  // --- prac ---
 
 }

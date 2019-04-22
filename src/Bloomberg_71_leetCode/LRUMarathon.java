@@ -1,7 +1,5 @@
 package Bloomberg_71_leetCode;
 
-import Class_10_RecurII.NQueens;
-
 import java.util.HashMap;
 import java.util.Map;
 

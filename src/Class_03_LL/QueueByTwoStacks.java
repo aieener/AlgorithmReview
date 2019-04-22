@@ -1,10 +1,7 @@
 package Class_03_LL;
 
-import Class_01.QuickSort;
-
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * Created by yuding on 12/19/17.
