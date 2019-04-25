@@ -1,6 +1,6 @@
 package Prac_Jan_9;
 
-import Class_03_LL.ListNode;
+import Class_03_LL_Stack_Queue.ListNode;
 
 /**
  * Using ListNode implement queue

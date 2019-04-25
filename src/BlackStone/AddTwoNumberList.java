@@ -1,6 +1,6 @@
 package BlackStone;
 
-import Class_03_LL.ListNode;
+import Class_03_LL_Stack_Queue.ListNode;
 
 /**
  * Created by yuding on 2/7/18.

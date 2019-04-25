@@ -1,6 +1,6 @@
 package Bloomberg_71_leetCode;
 
-import Class_03_LL.ListNode;
+import Class_03_LL_Stack_Queue.ListNode;
 
 public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
