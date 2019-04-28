@@ -90,40 +90,38 @@ import java.util.*;
  */
 public class Bipartite {
   public boolean isBipartite(List<GraphNode> graph) {
-    HashMap<GraphNode, Integer> visited = new HashMap<>();
-
-    for (GraphNode node : graph) {
-      if (!BFS(node, visited)) { // check the color of the node's neighbors
+    // write your solution here
+    Map<GraphNode, Integer> nodeColorMap = new HashMap<>();
+    for(GraphNode node: graph){
+      if(!noDup(node, nodeColorMap)){
         return false;
       }
     }
     return true;
   }
 
-  private boolean BFS(GraphNode node, HashMap<GraphNode, Integer> visited) {
-    // if node has already been traversed, no need to do it again
-    if (visited.containsKey(node)) {
+  private boolean noDup(GraphNode node, Map<GraphNode, Integer> nodeColorMap){
+    if(nodeColorMap.containsKey(node)){
       return true;
     }
-    Queue<GraphNode> queue = new LinkedList<>();
-    queue.offer(node); // seed
-    visited.put(node, 0); // the node has not been visited yet, assign it with group 0
-    while (!queue.isEmpty()) {
-      GraphNode cur = queue.poll();
-      int curGroup = visited.get(cur);
-      int neiGroup = curGroup == 0 ? 1 : 0; // neiGroup is differ from curGroup
 
-      for (GraphNode nei : cur.neighbors) {
-        if (!visited.containsKey(nei)) {
-          visited.put(nei, neiGroup);
+    Queue<GraphNode> queue = new LinkedList<>();
+    queue.offer(node);
+    nodeColorMap.put(node, 0);
+    while(!queue.isEmpty()){
+      GraphNode nodeToExpand = queue.poll();
+      int curColor = nodeColorMap.get(nodeToExpand);
+      int neighborColor = curColor == 0 ? 1 : 0;
+
+      for(GraphNode nei : nodeToExpand.neighbors){
+        if(!nodeColorMap.containsKey(nei)){
+          nodeColorMap.put(nei, neighborColor);
           queue.offer(nei);
-        } else if (visited.get(nei) != neiGroup) {
+        } else if (nodeColorMap.get(nei) != neighborColor){
           return false;
         }
       }
     }
     return true;
   }
-
-  //----------- practise -------------
 }

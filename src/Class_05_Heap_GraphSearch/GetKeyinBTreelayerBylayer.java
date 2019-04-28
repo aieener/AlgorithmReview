@@ -11,32 +11,26 @@ import java.util.Queue;
  * BFS 最最基础的基础题
  */
 public class GetKeyinBTreelayerBylayer {
-    public List <List<Integer>> layerByLayer(TreeNode root) {
-
-        List<List<Integer>> res = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-        if(root == null) {
-            return res;
+  public List<List<Integer>> layerByLayer(TreeNode root) {
+    List<List<Integer>> res = new ArrayList<>();
+    if(root == null) return res;
+    Queue<TreeNode> queue = new LinkedList<>();
+    queue.offer(root);
+    while (!queue.isEmpty()) {
+      int size = queue.size();
+      List<Integer> curLevel = new ArrayList<>();
+      for (int i = 0; i < size; i++) {
+        TreeNode nodeToExpand = queue.poll();
+        curLevel.add(nodeToExpand.key);
+        if(nodeToExpand.left != null) {
+          queue.offer(nodeToExpand.left);
         }
-        queue.offer(root);
-
-        while(!queue.isEmpty()){
-            List<Integer> layer = new ArrayList<>();
-            int size = queue.size();
-            for(int i = 0; i < size; i++){
-                TreeNode cur = queue.poll();
-                layer.add(cur.key);
-                if(cur.left != null) {
-                    queue.offer(cur.left);
-                }
-                if(cur.right != null) {
-                    queue.offer(cur.right);
-                }
-            }
-            res.add(layer);
+        if (nodeToExpand.right != null) {
+          queue.offer(nodeToExpand.right);
         }
-        return res;
+      }
+      res.add(curLevel);
     }
-
-    //-----------
+    return res;
+  }
 }
