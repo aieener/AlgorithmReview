@@ -1,4 +1,4 @@
-package alg.laioffer.postclass.dfs2;
+package alg.laioffer.review19.dfs2;
 
 public class GenerateRandomMaze {
   public int[][] maze(int n) {
