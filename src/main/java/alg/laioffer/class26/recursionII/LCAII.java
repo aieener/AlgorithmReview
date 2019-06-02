@@ -1,4 +1,4 @@
-package alg.laioffer.review19.recursionII;
+package alg.laioffer.class26.recursionII;
 
 public class LCAII {
   public TreeNodeP lowestCommonAncestor(TreeNodeP one, TreeNodeP two) {

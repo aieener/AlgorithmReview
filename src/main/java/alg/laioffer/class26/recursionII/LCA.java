@@ -1,7 +1,12 @@
-package alg.laioffer.review19.recursionII;
+package alg.laioffer.class26.recursionII;
 
 import alg.laioffer.class4.bintree.TreeNode;
 
+/**
+ * time = O(n)
+ * tree traversal from bottom up
+ * 三部曲
+ */
 public class LCA {
   public TreeNode lowestComonAncestor(TreeNode root, TreeNode one, TreeNode two) {
     // base case

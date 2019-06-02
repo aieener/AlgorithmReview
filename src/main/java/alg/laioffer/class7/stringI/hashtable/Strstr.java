@@ -29,7 +29,7 @@ public class Strstr {
 		String input = "bcabc";
 		String small = "ab";
 		Strstr str = new Strstr();
-		int res = str.strstr(input, small);
+		int res = str.strstrI(input, small);
 		System.out.println(res);
 	}
 }
