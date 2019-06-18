@@ -1,4 +1,4 @@
-package CIT_596;
+package cit.penn.datastructure;
 
 public class HWill {
     public static int findRepeat2(int [] A) {
