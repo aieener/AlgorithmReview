@@ -1,4 +1,4 @@
-package alg.laioffer.class5.heap.graphsearch;
+package alg.laioffer.class5.heap.bfs;
 
 import alg.laioffer.class4.bintree.TreeNode;
 

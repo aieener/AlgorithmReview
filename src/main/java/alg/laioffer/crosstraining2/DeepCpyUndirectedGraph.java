@@ -1,6 +1,6 @@
 package alg.laioffer.crosstraining2;
 
-import alg.laioffer.class5.heap.graphsearch.GraphNode;
+import alg.laioffer.class5.heap.bfs.GraphNode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
