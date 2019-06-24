@@ -6,7 +6,7 @@ import alg.laioffer.class4.bintree.TreeNode;
  * Given a binary tree where all the right nodes are leaf nodes,
  * flip it upside down and turn it into a tree with left leaf nodes as the root.
  */
-public class reverseBinTreeUpsideDown {
+public class ReverseBinTreeUpsideDown {
   public TreeNode reverse(TreeNode root) {
     // base case
     if (root == null || root.left == null) {
