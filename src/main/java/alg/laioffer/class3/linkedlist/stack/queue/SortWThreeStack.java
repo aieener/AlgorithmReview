@@ -26,23 +26,23 @@ public class SortWThreeStack {
       return;
     }
     // split
-    int mid1 = len / 2;
-    int mid2 = len - mid1;
+    int len1 = len / 2;
+    int len2 = len - len1;
 
     // put secHalfSize from s1 into s2
-    for (int i = 0; i < mid1; i++) {
+    for (int i = 0; i < len1; i++) {
       s2.offerFirst(s1.pollFirst());
     }
 
     // do recur
-    sort(s2, s3, s1, mid1);
-    sort(s1, s3, s2, mid2);
+    sort(s2, s3, s1, len1);
+    sort(s1, s3, s2, len2);
 
     // after this recur, s2 and s1 will be sorted
     // merge s1 and s2;
     int i = 0;
     int j = 0;
-    while (i < mid1 && j < mid2) {
+    while (i < len1 && j < len2) {
       if (s2.peekFirst() < s1.peekFirst()) {
         s3.offerFirst(s2.pollFirst());
         i++;
@@ -51,12 +51,12 @@ public class SortWThreeStack {
         j++;
       }
     }
-    while (i < mid1) {
+    while (i < len1) {
       s3.offerFirst(s2.pollFirst());
       i++;
     }
 
-    while (j < mid2) {
+    while (j < len2) {
       s3.offerFirst(s1.pollFirst());
       j++;
     }

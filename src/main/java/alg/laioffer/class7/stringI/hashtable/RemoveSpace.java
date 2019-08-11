@@ -8,14 +8,12 @@ public class RemoveSpace {
     int slow = 0;
     int fast = 0;
     char[] inputArr = input.toCharArray();
-    boolean firstString = true;
     for (; fast < inputArr.length; fast++) {
-      if(inputArr[fast] != ' ' && !firstString) {
+      if(inputArr[fast] != ' ' && slow != 0) {
         inputArr[slow++] = ' ';
       }
       while(fast < inputArr.length && inputArr[fast] != ' ') {
         inputArr[slow++] = inputArr[fast++];
-        firstString = false;
       }
     }
     return new String(inputArr, 0, slow);
