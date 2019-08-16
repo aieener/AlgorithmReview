@@ -2,91 +2,64 @@ package alg.leetcode.amazon.graph.impl;
 
 import alg.leetcode.amazon.graph.WordSearch;
 
-import java.util.ArrayList;
-import java.util.List;
-
+/**
+ * Time complexity: O(m * n * 4^k) where k is the length of the word
+ * dfs has been called m * n times
+ * each dfs on the worst case would run O(4^k) 4 branch for each layer, and there are k layers
+ */
 public class WordSearchImpl implements WordSearch {
   @Override
   public boolean exist(char[][] board, String word) {
-    if (word == null || word.length() == 0) return true;
-    List<Point> seeds = findSeeds(board, word.charAt(0));
-    if(seeds.size() == 0) return false;
-    // do bfs on seeds
-    int[] maxLen = new int[1];
-    maxLen[0] = 0;
-    for (Point seed : seeds) {
-      boolean[][] visited = new boolean[board.length][board[0].length];
-      dfs(board, seed, visited, word, 0, maxLen);
-    }
-    return maxLen[0] == word.length() - 1;
-  }
-
-  private void dfs(char[][] board, Point seed, boolean[][] visited, String word, int idx, int[] maxLen){
-    // base case
-    if(idx == word.length()) {
-      maxLen[0] = idx;
-    }
-
-    if(seed.val == word.charAt(idx)) {
-      visited[seed.row][seed.col] = true;
-      idx++;
-      List<Point> neighbors = getNeighbors(board, seed, visited);
-      for(Point ptr : neighbors) {
-        if(idx < word.length() && ptr.val == word.charAt(idx)) {
-          maxLen[0] = Math.max(maxLen[0], idx);
-          dfs(board, ptr, visited, word, idx, maxLen);
-        }
-      }
-      visited[seed.row][seed.col] = false;
-    }
-  }
-
-  private List<Point> findSeeds(char[][] board, char startLetter) {
-    List<Point> seeds = new ArrayList<>();
-    for (int row = 0; row < board.length; row++) {
-      for (int col = 0; col < board[0].length; col++) {
-        if (startLetter == board[row][col]) {
-          Point seed = new Point(row, col, startLetter);
-          seeds.add(seed);
-        }
-      }
-    }
-    return seeds;
-  }
-
-  private List<Point> getNeighbors(char[][] board, Point currentPtr, boolean[][] visited) {
     int rowLen = board.length;
     int colLen = board[0].length;
-    int[] deltaX = new int[]{-1, 0, 0, 1};
-    int[] deltaY = new int[]{0, -1, 1, 0};
-    List<Point> neighbors = new ArrayList<>();
-    for (int i = 0; i < deltaX.length; i++) {
-      int newRow = currentPtr.row + deltaY[i];
-      int newCol = currentPtr.col + deltaX[i];
-      if (newRow < rowLen && newRow >= 0 && newCol < colLen && newCol >= 0 && !visited[newRow][newCol]) {
-        neighbors.add(new Point(newRow, newCol, board[newRow][newCol]));
+    boolean [][] visited = new boolean[rowLen][colLen];
+    boolean result = false;
+    for (int i = 0; i < rowLen; i++) {
+      for (int j = 0; j < colLen; j++) {
+        if (dfs(board, word, i, j, 0, visited)) {
+          result = true;
+        }
       }
     }
-    return neighbors;
+    return result;
   }
 
-  class Point {
-    char val;
-    int col;
-    int row;
+  private boolean dfs(char[][] board, String word, int i, int j, int idx, boolean[][] visited) {
+    int rowLen = board.length;
+    int colLen = board[0].length;
+    if (i < 0 || j < 0 || i > rowLen - 1 || j > colLen - 1 || visited[i][j] || board[i][j] != word.charAt(idx))
+      return false;
 
-    Point(int row, int col, char val) {
-      this.val = val;
-      this.row = row;
-      this.col = col;
+    if (idx == word.length() - 1) return true;
+    visited[i][j] = true;
+    int[] deltaX = new int[]{-1, 0, 0, 1};
+    int[] deltaY = new int[]{0, -1, 1, 0};
+    for (int k = 0; k < deltaX.length; k++) {
+      if (dfs(board, word, i + deltaX[k], j + deltaY[k], idx + 1, visited)) {
+        return true;
+      }
     }
+    visited[i][j] = false;
+    return false;
   }
 
-  public static void main(String[] args) {
-    String input = "ABCESEEEFS";
-    char[][] table = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'E', 'S'}, {'A', 'D', 'E', 'E'}};
+  private boolean dfsWithOutSpace(char[][]board, String word, int i, int j, int idx) {
+    int rowLen = board.length;
+    int colLen = board[0].length;
+    if (i < 0 || j < 0 || i > rowLen - 1 || j > colLen - 1 || board[i][j] != word.charAt(idx))
+      return false;
 
-    WordSearch ws = new WordSearchImpl();
-    System.out.println(ws.exist(table, input));
+    if (idx == word.length() - 1) return true;
+    char temp = board[i][j];
+    board[i][j] = '#';
+    int[] deltaX = new int[]{-1, 0, 0, 1};
+    int[] deltaY = new int[]{0, -1, 1, 0};
+    for (int k = 0; k < deltaX.length; k++) {
+      if (dfsWithOutSpace(board, word, i + deltaX[k], j + deltaY[k], idx + 1)) {
+        return true;
+      }
+    }
+    board[i][j] = temp;
+    return false;
   }
 }
