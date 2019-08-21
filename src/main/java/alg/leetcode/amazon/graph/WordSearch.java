@@ -11,6 +11,8 @@ package alg.leetcode.amazon.graph;
  * Given word = "ABCCED", return true.
  * Given word = "SEE", return true.
  * Given word = "ABCB", return false.
+ *
+ * WordSearchII is at Trie section of LaiOffer
  */
 public interface WordSearch {
   public boolean exist(char[][] board, String word);

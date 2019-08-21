@@ -5,6 +5,7 @@ import alg.laioffer.class36.trie.Trie;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class TrieImpl implements Trie {
   TrieNode root;
 
@@ -15,11 +16,11 @@ public class TrieImpl implements Trie {
   @Override
   public void insert(String word) {
     TrieNode curNode = root;
-    for(int i = 0; i < word.length(); i++) {
-      TrieNode next = curNode.children.get(word.charAt(i));
-      if(next == null) {
+    for (Character ch : word.toCharArray()) {
+      TrieNode next = curNode.children.get(ch);
+      if (next == null) {
         next = new TrieNode();
-        curNode.children.put(word.charAt(i), next);
+        curNode.children.put(ch, next);
       }
       curNode = next;
       curNode.count++;
@@ -30,8 +31,8 @@ public class TrieImpl implements Trie {
   @Override
   public boolean search(String word) {
     TrieNode curNode = root;
-    for (int i = 0; i < word.length(); i++) {
-      TrieNode next = curNode.children.get(word.charAt(i));
+    for (Character ch : word.toCharArray()) {
+      TrieNode next = curNode.children.get(ch);
       if (next == null) return false;
       curNode = next;
     }
@@ -41,9 +42,9 @@ public class TrieImpl implements Trie {
   @Override
   public boolean startsWith(String prefix) {
     TrieNode curNode = root;
-    for(int i = 0; i < prefix.length(); i++) {
-      TrieNode next = curNode.children.get(prefix.charAt(i));
-      if(next == null) return false;
+    for (Character ch : prefix.toCharArray()) {
+      TrieNode next = curNode.children.get(ch);
+      if (next == null) return false;
       curNode = next;
     }
     return curNode.count > 0;
@@ -51,13 +52,13 @@ public class TrieImpl implements Trie {
 
   @Override
   public boolean delete(String word) {
-    if(!search(word)) return false;
+    if (!search(word)) return false;
     TrieNode curNode = root;
-    for(int i = 0; i < word.length(); i++) {
-      TrieNode next = curNode.children.get(word.charAt(i));
+    for (Character ch : word.toCharArray()) {
+      TrieNode next = curNode.children.get(ch);
       next.count--;
-      if(next.count == 0) {
-        curNode.children.remove(word.charAt(i));
+      if (next.count == 0) {
+        curNode.children.remove(ch);
       }
       curNode = next;
     }
