@@ -1,4 +1,4 @@
-package alg.laioffer.class14.probandsampling;
+package alg.laioffer.class14.probsampling;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package alg.laioffer.class14.probandsampling;
+package alg.laioffer.class14.probsampling;
 
 public interface ReservoirSampling {
   void read(int value);

@@ -1,6 +1,6 @@
-package alg.laioffer.class14.probandsampling.impl;
+package alg.laioffer.class14.probsampling.impl;
 
-import alg.laioffer.class14.probandsampling.GeneralizedReservoirSampling;
+import alg.laioffer.class14.probsampling.GeneralizedReservoirSampling;
 
 import java.util.ArrayList;
 import java.util.List;

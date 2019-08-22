@@ -1,6 +1,6 @@
-package alg.laioffer.class14.probandsampling.impl;
+package alg.laioffer.class14.probsampling.impl;
 
-import alg.laioffer.class14.probandsampling.PerfectShuffle;
+import alg.laioffer.class14.probsampling.PerfectShuffle;
 
 import java.util.Random;
 
