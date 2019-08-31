@@ -1,6 +1,6 @@
 package alg.laioffer.class25.adv2.impl;
 
-import alg.laioffer.class5.heap.bfs.GraphNode;
+import alg.laioffer.class6.heapandbfs.GraphNode;
 import alg.laioffer.crosstraining2.DeepCpyUndirectedGraph;
 
 import java.util.ArrayList;

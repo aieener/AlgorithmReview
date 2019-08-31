@@ -1,6 +1,6 @@
 package alg.ninechap.adv.bintree;
 
-import alg.laioffer.class4.bintree.TreeNode;
+import alg.laioffer.class5.bintree.TreeNode;
 
 public class SubTreeMaxAve {
     ResultType res = new ResultType(Integer.MAX_VALUE, 0, null);

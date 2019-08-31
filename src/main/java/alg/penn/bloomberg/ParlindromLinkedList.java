@@ -1,6 +1,6 @@
 package alg.penn.bloomberg;
 
-import alg.laioffer.class3.linkedlist.stack.queue.ListNode;
+import alg.laioffer.class4.linkedlist.ListNode;
 
 /**
  * Created by yuding on 2/18/18.

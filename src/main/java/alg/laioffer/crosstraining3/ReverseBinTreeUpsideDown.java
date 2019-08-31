@@ -1,6 +1,6 @@
 package alg.laioffer.crosstraining3;
 
-import alg.laioffer.class4.bintree.TreeNode;
+import alg.laioffer.class5.bintree.TreeNode;
 
 /**
  * Given a binary tree where all the right nodes are leaf nodes,

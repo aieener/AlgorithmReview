@@ -1,6 +1,6 @@
 package alg.penn.houserobber;
 
-import alg.laioffer.class4.bintree.TreeNode;
+import alg.laioffer.class5.bintree.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;

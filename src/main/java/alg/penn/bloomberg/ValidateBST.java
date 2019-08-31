@@ -1,6 +1,6 @@
 package alg.penn.bloomberg;
 
-import alg.laioffer.class4.bintree.TreeNode;
+import alg.laioffer.class5.bintree.TreeNode;
 
 /**
  * Created by yuding on 2/11/18.

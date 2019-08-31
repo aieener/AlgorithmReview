@@ -1,7 +1,6 @@
 package alg.laioffer.crosstraining1;
 
-import alg.laioffer.class4.bintree.TreeNode;
-import sun.reflect.generics.tree.Tree;
+import alg.laioffer.class5.bintree.TreeNode;
 
 import java.util.*;
 

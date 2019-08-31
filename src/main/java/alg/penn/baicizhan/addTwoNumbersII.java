@@ -1,6 +1,6 @@
 package alg.penn.baicizhan;
 
-import alg.laioffer.class3.linkedlist.stack.queue.ListNode;
+import alg.laioffer.class4.linkedlist.ListNode;
 
 /**
  * Feb 20

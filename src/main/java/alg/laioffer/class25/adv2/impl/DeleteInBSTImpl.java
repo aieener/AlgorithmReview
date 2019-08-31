@@ -1,7 +1,7 @@
 package alg.laioffer.class25.adv2.impl;
 
 import alg.laioffer.class25.adv2.DeleteInBST;
-import alg.laioffer.class4.bintree.TreeNode;
+import alg.laioffer.class5.bintree.TreeNode;
 
 /**
  * a Hard one!

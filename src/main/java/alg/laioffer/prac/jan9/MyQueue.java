@@ -1,6 +1,6 @@
 package alg.laioffer.prac.jan9;
 
-import alg.laioffer.class3.linkedlist.stack.queue.ListNode;
+import alg.laioffer.class4.linkedlist.ListNode;
 
 /**
  * Using ListNode implement queue

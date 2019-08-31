@@ -1,6 +1,6 @@
 package alg.laioffer.finalexam;
 
-import alg.laioffer.class4.bintree.TreeNode;
+import alg.laioffer.class5.bintree.TreeNode;
 
 public class areConusins {
     public boolean areCounsins(TreeNode root, TreeNode A, TreeNode B) {

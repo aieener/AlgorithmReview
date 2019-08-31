@@ -1,6 +1,6 @@
 package alg.laioffer.class25.adv2;
 
-import alg.laioffer.class3.linkedlist.stack.queue.ListNode;
+import alg.laioffer.class4.linkedlist.ListNode;
 
 import java.util.List;
 
