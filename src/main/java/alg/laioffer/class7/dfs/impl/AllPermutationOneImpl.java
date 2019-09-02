@@ -8,6 +8,7 @@ import java.util.List;
 /**
  * DFS EX 4
  * last review : Aug 30, 2019
+ * ------ initial review comment ----------
  * Whenever every single permutation contains all elements in the initial input, then
  * you should consider SWAP and SWAP approach
  * ex．　Ｎ个磁铁，某些相互排斥，能不能找出一种排列可以放在箱子里两辆不排斥

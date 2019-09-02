@@ -10,6 +10,7 @@ import java.util.List;
  * Last review Aug 31 2019
  * USE Arr will be faster than use List!
  *
+ * ------ initial review comment ----------
  * Coin value 25 10 5 1
  * print all combination of coins that sum up to a total value k
  * 1. what does it store on each level? (每层代表什么意义， 一般解题前就知道DFS要recur多少层)

@@ -8,6 +8,8 @@ import java.util.List;
 /**
  * DFS EX 1
  * Last Review Aug 30, 2019
+ *
+ * ------ initial review comment ----------
  * Subset do i + 1
  * Permutation do idx + 1
  * <p>
