@@ -1,14 +1,14 @@
 package alg.laioffer.class25.adv2.impl;
 
+import alg.laioffer.class25.adv2.DeepCpyUndirectedGraph;
 import alg.laioffer.class6.heapandbfs.GraphNode;
-import alg.laioffer.crosstraining2.DeepCpyUndirectedGraph;
 
 import java.util.*;
 
 public class DeepCpyUndirectedGraphBFSImpl implements DeepCpyUndirectedGraph {
   @Override
   public List<GraphNode> copy(List<GraphNode> graph) {
-    if(graph == null) return null;
+    if (graph == null) return null;
     List<GraphNode> cpyGraph = new ArrayList<>();
     Map<GraphNode, GraphNode> lkup = new HashMap<>();
     for (GraphNode node : graph) {

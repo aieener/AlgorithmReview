@@ -1,6 +1,6 @@
 package alg.laioffer.class25.adv2.impl;
 
-import alg.laioffer.crosstraining2.DeepCpyLLWithRandPtr;
+import alg.laioffer.class25.adv2.DeepCpyLLWithRandPtr;
 
 import java.util.HashMap;
 import java.util.Map;
