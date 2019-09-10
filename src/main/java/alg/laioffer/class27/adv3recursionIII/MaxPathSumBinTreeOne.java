@@ -4,9 +4,9 @@ import alg.laioffer.class5.bintree.TreeNode;
 
 /**
  * Given a binary tree in which each node contains an integer number.
- * Find the maximum possible sum from any node to any node (the start node and the end node can be the same).
- * 不顶天不立地的人字
+ * Find the maximum possible sum from one leaf node to another leaf node. If there is no such path available, return
+ * 不顶天但是两脚立地的人字
  */
-public interface MaxPathSumBinTreeTwo {
+public interface MaxPathSumBinTreeOne {
   int maxPathSum(TreeNode root);
 }
