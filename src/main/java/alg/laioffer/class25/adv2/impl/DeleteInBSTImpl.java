@@ -10,12 +10,23 @@ public class DeleteInBSTImpl implements DeleteInBST {
   @Override
   public TreeNode deleteTree(TreeNode root, int key) {
     if (root == null) return null;
-    if (key == root.key) {
-      if (root.left == null) {
-        return root.right;
-      } else if (root.right == null) {
-        return root.left;
-      } else if (root.right.left == null) {
+    if (root.key > key) {
+      root.left = deleteTree(root.left, key);
+    } else if (root.key < key) {
+      root.right = deleteTree(root.right, key);
+    } else {
+      return deleteRoot(root);
+    }
+    return root;
+  }
+
+  private TreeNode deleteRoot(TreeNode root) {
+    if (root.left == null && root.right == null) {
+      return null;
+    } else if (root.right == null || root.left == null) {
+      return root.left == null ? root.right : root.left;
+    } else {
+      if (root.right.left == null) {
         root.right.left = root.left;
         return root.right;
       } else {
@@ -24,20 +35,16 @@ public class DeleteInBSTImpl implements DeleteInBST {
         newRoot.right = root.right;
         return newRoot;
       }
-    } else if (key < root.key) {
-      root.left = deleteTree(root.left, key);
-    } else {
-      root.right = deleteTree(root.right, key);
     }
-    return root;
   }
 
-  private TreeNode deleteSmallest(TreeNode root) {
-    while (root.left.left != null) {
-      root = root.left;
+  private TreeNode deleteSmallest(TreeNode node) {
+    while (node.left.left != null) {
+      node = node.left;
     }
-    TreeNode smallest = root.left;
-    root.left = root.left.right;
+    TreeNode smallestParent = node;
+    TreeNode smallest = smallestParent.left;
+    smallestParent.left = smallest.right;
     return smallest;
   }
 }

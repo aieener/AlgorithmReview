@@ -2,6 +2,9 @@ package alg.laioffer.crosstraining4;
 
 import java.util.*;
 
+/**
+ * 又大又新
+ */
 public class MaxValOfSizeKSlidingWindow {
   public List<Integer> maxWindows(int[] array, int k) {
     List<Integer> res = new ArrayList<>();

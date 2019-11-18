@@ -1,13 +1,17 @@
 package alg.laioffer.crosstraining4;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 public class FirstNonRepeatingCharInStream {
   private Node head, tail;
   private Map<Character, Node> singled;
   private Set<Character> repeated;
+
   public FirstNonRepeatingCharInStream() {
-    tail = new Node (null);
+    tail = new Node(null);
     head = new Node(null);
     head.next = tail;
     tail.prev = head;
@@ -16,11 +20,11 @@ public class FirstNonRepeatingCharInStream {
   }
 
   public void read(char ch) {
-    if(repeated.contains(ch)){
+    if (repeated.contains(ch)) {
       return;
     }
     Node node = singled.get(ch);
-    if(node == null) {
+    if (node == null) {
       node = new Node(ch);
       append(node);
     } else {
@@ -47,14 +51,15 @@ public class FirstNonRepeatingCharInStream {
   }
 
   public Character firstNonRepeating() {
-    if(head.next == tail ) return null;
+    if (head.next == tail) return null;
     return head.next.ch;
   }
 
   static class Node {
     Node prev, next;
     Character ch;
-    public Node(Character ch) {
+
+    Node(Character ch) {
       this.ch = ch;
     }
   }
