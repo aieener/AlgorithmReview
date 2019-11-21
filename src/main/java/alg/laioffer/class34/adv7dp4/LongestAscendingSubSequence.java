@@ -41,12 +41,20 @@ public class LongestAscendingSubSequence {
     if(array.length == 0) {
       return 0;
     }
+    /**
+     * M[i] : the smallest ending value of all the ascending subsequence with length i
+     * a = 7,2,3,1,5,8,9,6,7,4
+     * M = 1,1,2,1,3,4,5,4,5,3
+     * <1,1> , <3,2> , <4,3>, <6,4>, <7,5> is represented as
+     *  M[1] = 1; M[3] = 2; M[4] = 3; M[6] = 4; M[7] = 5
+     */
     int[] M = new int[array.length + 1];
     int res = 1;
     M[1] = array[0];
     for(int i = 1; i < array.length; i++) {
-      int idx = find(M, 1, res, array[i]);
+      int idx = find(M, 1, res, array[i]); // idx largest smaller
       if(idx == res) {
+        // array[i] is larger than all values in M
         res++;
         M[res] = array[i];
       } else {
@@ -81,8 +89,10 @@ public class LongestAscendingSubSequence {
   }
 
   public static void main(String[] args) {
-    int[] input = new int[] {5,4,3,2,1};
+//    int[] input = new int[] {5,4,3,2,1};
+    int[] input = new int[] {7,2,3,1,5, 8, 9,6,7,4};
     LongestAscendingSubSequence engine = new LongestAscendingSubSequence();
+//    System.out.println("=========");
     engine.longestWithBinSearch(input);
   }
 }
