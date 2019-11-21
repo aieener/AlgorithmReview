@@ -1,8 +1,6 @@
 package alg.leetcode.amazon.string.impl;
 
 import alg.leetcode.amazon.string.PartitionLabels;
-import sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl;
-
 import java.util.*;
 
 /**
