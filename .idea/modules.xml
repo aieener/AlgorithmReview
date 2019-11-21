@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Code_interview.iml" filepath="$PROJECT_DIR$/Code_interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laioffer.iml" filepath="$PROJECT_DIR$/laioffer.iml" />
     </modules>
   </component>
 </project>
