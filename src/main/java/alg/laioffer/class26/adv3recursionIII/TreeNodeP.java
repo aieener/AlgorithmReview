@@ -1,4 +1,4 @@
-package alg.laioffer.class27.adv3recursionIII;
+package alg.laioffer.class26.adv3recursionIII;
 public class TreeNodeP {
   public int key;
   public TreeNodeP left;

@@ -1,7 +1,7 @@
 package alg.laioffer.class23.adv1ArrayLCA.impl;
 
 import alg.laioffer.class23.adv1ArrayLCA.LCATwo;
-import alg.laioffer.class27.adv3recursionIII.TreeNodeP;
+import alg.laioffer.class26.adv3recursionIII.TreeNodeP;
 
 public class LCATwoimpl implements LCATwo {
   @Override

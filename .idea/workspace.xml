@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073430f9-2db1-4cba-89d2-2b5ed82e3c49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class27/adv4dfsII/FourSumFindAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class27/adv4dfsII/impl/FourSumFindAllImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class27/adv4dfsII/impl/FourSumImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class27/adv4dfsII/impl/FourSumImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class27/adv4dfsII/impl/ThreeSumImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class27/adv4dfsII/impl/ThreeSumImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class27/adv4dfsII/impl/TwoSumImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class27/adv4dfsII/impl/TwoSumImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +35,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -200,6 +195,8 @@
       <workItem from="1574377436916" duration="83000" />
       <workItem from="1574377539706" duration="273000" />
       <workItem from="1574377822912" duration="745000" />
+      <workItem from="1574526576166" duration="725000" />
+      <workItem from="1574527389420" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="remove wrong dependencies">
       <created>1574378372610</created>
