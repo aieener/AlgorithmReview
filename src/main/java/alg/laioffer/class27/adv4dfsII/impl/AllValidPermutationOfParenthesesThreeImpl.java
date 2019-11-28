@@ -39,7 +39,7 @@ public class AllValidPermutationOfParenthesesThreeImpl implements AllValidPermut
     for (Character curChar : countMap.keySet()) {
       if (i % 2 == 0) {
         // add left parentheses
-        if (canAddLeft(stack, countMap, curChar)) {
+        if (canAddLeft(stack, countMap, curChar)) { // the only extra if there is a priority
           curSol.append(curChar);
           stack.offerFirst(curChar);
           countMap.put(curChar, countMap.get(curChar) - 1);

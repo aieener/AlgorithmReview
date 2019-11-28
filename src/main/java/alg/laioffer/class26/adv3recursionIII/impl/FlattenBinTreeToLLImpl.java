@@ -1,11 +1,12 @@
-package alg.laioffer.class26.adv3recursionIII;
+package alg.laioffer.class26.adv3recursionIII.impl;
 
+import alg.laioffer.class26.adv3recursionIII.FlattenBinTreeToLL;
 import alg.laioffer.class5.bintree.TreeNode;
 
-public class FlatternBinTreeToLL {
+public class FlattenBinTreeToLLImpl implements FlattenBinTreeToLL {
+  @Override
   public TreeNode flatten(TreeNode root) {
     if (root == null) return root;
-
     TreeNode leftFlat = flatten(root.left);
     TreeNode rightFlat = flatten(root.right);
     TreeNode leftRightLeaf = getRightLeaf(leftFlat);

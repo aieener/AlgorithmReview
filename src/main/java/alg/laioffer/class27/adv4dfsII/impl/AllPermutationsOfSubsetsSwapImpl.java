@@ -11,7 +11,7 @@ public class AllPermutationsOfSubsetsSwapImpl implements AllPermutationsOfSubset
 
   @Override
   public List<String> allPermutationsOfSubsets(String str) {
-    Set<String> res = new HashSet();    //deduplicate
+    Set<String> res = new HashSet<>();    //deduplicate
     char[] arr = str.toCharArray();
     getPerm(arr, 0, res);
     return new ArrayList<>(res);
