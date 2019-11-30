@@ -2,52 +2,68 @@ package alg.leetcode.amazon.graph.impl;
 
 import alg.leetcode.amazon.graph.CriticalConnection;
 
-import java.sql.PreparedStatement;
 import java.util.*;
 
+/**
+ * We record the timestamp that we visit each node.
+ * For each node, we check every neighbor except its parent and return a smallest timestamp in all its neighbors.
+ * If this timestamp is strictly less than the node's timestamp, we know that this node is somehow in a cycle.
+ * Otherwise, this edge from the parent to this node is a critical connection.
+ * <p>
+ * int [] timeCostLkup serves as the visited set, but also record the shortest time to reach from node '0'
+ * ----
+ * this is a 三部曲 bottom up recursion problem!
+ * time limited exceed
+ * timestamp counting from 1, because we use timeCost[i] == 0 to verify if the node is visited!
+ * so the first time count is 1, then 2, 3, 4, ....
+ */
 public class CriticalConnectionImpl implements CriticalConnection {
     @Override
-    public List<List<Integer>> criticalConnection(int n, List<List<Integer>> connection) {
-        HashMap<Integer, List<List<Integer>>> visited = new HashMap<>();
-        return dfs(n, getConnection(connection), visited);
-    }
-
-    private List<List<Integer>> dfs(int curNode, Map<Integer, Set<Integer>> connection, HashMap<Integer, List<List<Integer>>> visited) {
-        if (visited.containsKey(curNode)) return visited.get(curNode);
-        List<List<Integer>> result = new ArrayList<>();
-        visited.put(curNode, result);
-        for (Integer nei : connection.get(curNode)) {
-            List<List<Integer>> critical = dfs(nei, connection, visited);
-            result.addAll(validateCritical(critical, curNode));
-        }
-        visited.put(curNode, result);
-        return result;
-    }
-
-    private List<List<Integer>> validateCritical(List<List<Integer>> critical, int curNode) {
-        List<List<Integer>> res = new ArrayList<>();
-        for (List<Integer> con : critical) {
-            if (con.get(0) != curNode || con.get(1) != curNode) {
-                res.add(Arrays.asList(con.get(0), con.get(1)));
-            }
-        }
-        return res;
-    }
-
-    private Map<Integer, Set<Integer>> getConnection(List<List<Integer>> connection) {
-        Map<Integer, Set<Integer>> connectionLkup = new HashMap<>();
-        for (List<Integer> con : connection) {
-            connectionLkup.putIfAbsent(con.get(0), new HashSet<>());
-            connectionLkup.putIfAbsent(con.get(1), new HashSet<>());
-            connectionLkup.get(con.get(0)).add(con.get(1));
-            connectionLkup.get(con.get(1)).add(con.get(0));
-        }
-        return connectionLkup;
+    public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connection) {
+        List<List<Integer>> criticalConnections = new ArrayList<>();
+        dfs(0, -1, formGraph(connection), new int[n], criticalConnections, new int[]{1});
+        return criticalConnections;
     }
 
     /**
-     * at my layer
-     * check if any of my neighbor returns any critical con
-     * then among these con, check if I connect to them, if not then it is
+     * this recursion call returns the minTimeCost from startNode '0' to curNode
      */
+    private int dfs(int curNode, int parentNode, Map<Integer, Set<Integer>> graph, int[] timeCostlkup,
+                    List<List<Integer>> res, int[] time) {
+        if (timeCostlkup[curNode] != 0) return timeCostlkup[curNode]; // cycle, aka visited, continue;
+        timeCostlkup[curNode] = time[0]++;
+        int minTime = Integer.MAX_VALUE;
+        for (int nei : graph.get(curNode)) {
+            if (nei != parentNode) { // skip the parentNode
+                int neiTimeCost = dfs(nei, curNode, graph, timeCostlkup, res, time);
+                minTime = Math.min(minTime, neiTimeCost);
+            }
+        }
+        if (minTime >= timeCostlkup[curNode] && parentNode >= 0) {
+            // then curNode and parentNode forms a bridge
+            res.add(Arrays.asList(parentNode, curNode));
+        }
+        return Math.min(minTime, timeCostlkup[curNode]);
+    }
+
+    private Map<Integer, Set<Integer>> formGraph(List<List<Integer>> connection) {
+        Map<Integer, Set<Integer>> graph = new HashMap<>();
+        for (List<Integer> con : connection) {
+            graph.putIfAbsent(con.get(0), new HashSet<>());
+            graph.putIfAbsent(con.get(1), new HashSet<>());
+            graph.get(con.get(0)).add(con.get(1));
+            graph.get(con.get(1)).add(con.get(0));
+        }
+        return graph;
+    }
+
+    public static void main(String[] args) {
+        CriticalConnection engine = new CriticalConnectionImpl();
+        engine.criticalConnections(4, Arrays.asList(
+                Arrays.asList(0,1),
+                Arrays.asList(1,2),
+                Arrays.asList(2,0),
+                Arrays.asList(1,3)
+        ));
+    }
 }
