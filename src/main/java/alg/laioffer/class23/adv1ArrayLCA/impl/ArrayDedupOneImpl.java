@@ -12,7 +12,6 @@ public class ArrayDedupOneImpl implements ArrayDedupOne {
     if (array == null || array.length <= 1) return array;
     int slow = 0;
     int fast = 1;
-    List<Integer> res = new ArrayList<>();
     for (; fast < array.length; fast++) {
       if (array[fast] != array[slow]) {
         slow++;

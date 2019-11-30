@@ -5,6 +5,9 @@ import alg.laioffer.class23.adv1ArrayLCA.ArrayDedupThree;
 import java.util.Arrays;
 
 public class ArrayDedupThreeImpl implements ArrayDedupThree {
+  /**
+   * res = array[0,slow)  // result is NOT including slow
+   */
   @Override
   public int[] dedup(int[] array) {
     if (array == null || array.length <= 1) return array;

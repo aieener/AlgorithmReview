@@ -8,6 +8,9 @@ import java.util.Arrays;
  * simulate stack within Arr
  */
 public class ArrayDedupFourImpl implements ArrayDedupFour {
+  /**
+   *  Including Slow
+   */
   @Override
   public int[] dedup(int[] array) {
     int slow = -1;
@@ -20,7 +23,7 @@ public class ArrayDedupFourImpl implements ArrayDedupFour {
         while (fast + 1 < array.length && array[fast + 1] == array[slow]) {
           fast++;
         }
-        slow--;
+        slow--; // this move is to pop out the repeating char!
       }
     }
     return Arrays.copyOf(array, slow + 1);

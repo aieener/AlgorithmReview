@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="700cd87f-6a7f-4bcb-afc8-512dcfb89844" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="700cd87f-6a7f-4bcb-afc8-512dcfb89844" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class25/adv2/InsertInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class25/adv2/impl/CutWoodImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class25/adv2/impl/InsertInBSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class23/adv1ArrayLCA/impl/ArrayDedupFourImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class23/adv1ArrayLCA/impl/ArrayDedupFourImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class23/adv1ArrayLCA/impl/ArrayDedupOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class23/adv1ArrayLCA/impl/ArrayDedupOneImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class23/adv1ArrayLCA/impl/ArrayDedupThreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class23/adv1ArrayLCA/impl/ArrayDedupThreeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class25/adv2/CutWood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class25/adv2/CutWood.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="laioffer" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,21 +42,52 @@
     </option>
   </component>
   <component name="ProjectId" id="1UEEaBfsnuU22aua7OhcYbnFJH3" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="aPowb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class1.recursion.aPowb" />
+      <module name="laioffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alg.laioffer.class1.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Application.aPowb" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -51,6 +102,13 @@
       <option name="presentableId" value="Default" />
       <updated>1574913416130</updated>
       <workItem from="1574913418616" duration="146000" />
+      <workItem from="1574913646124" duration="414000" />
+      <workItem from="1574914129758" duration="49000" />
+      <workItem from="1574960788770" duration="2906000" />
+      <workItem from="1574994013283" duration="2235000" />
+      <workItem from="1574996450574" duration="109000" />
+      <workItem from="1574996572902" duration="2936000" />
+      <workItem from="1575072403737" duration="147000" />
     </task>
     <servers />
   </component>
@@ -62,10 +120,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="584" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575072421027">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="584" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1575072421027" />
+    <state x="550" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1575072417584">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="550" y="377" key="com.intellij.ide.util.TipDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1575072417584" />
   </component>
 </project>
