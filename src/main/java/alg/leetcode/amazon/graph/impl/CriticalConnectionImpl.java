@@ -5,6 +5,8 @@ import alg.leetcode.amazon.graph.CriticalConnection;
 import java.util.*;
 
 /**
+ * timeCostLkup is disc (discover node i, time cost) in trajan approach
+ *
  * We record the timestamp that we visit each node.
  * For each node, we check every neighbor except its parent and return a smallest timestamp in all its neighbors.
  * If this timestamp is strictly less than the node's timestamp, we know that this node is somehow in a cycle.
@@ -28,22 +30,22 @@ public class CriticalConnectionImpl implements CriticalConnection {
     /**
      * this recursion call returns the minTimeCost from startNode '0' to curNode
      */
-    private int dfs(int curNode, int parentNode, Map<Integer, Set<Integer>> graph, int[] timeCostlkup,
+    private int dfs(int curNode, int parentNode, Map<Integer, Set<Integer>> graph, int[] disc,
                     List<List<Integer>> res, int[] time) {
-        if (timeCostlkup[curNode] != 0) return timeCostlkup[curNode]; // cycle, aka visited, continue;
-        timeCostlkup[curNode] = time[0]++;
+        if (disc[curNode] != 0) return disc[curNode]; // cycle, aka visited, continue;
+        disc[curNode] = time[0]++;
         int minTime = Integer.MAX_VALUE;
         for (int nei : graph.get(curNode)) {
             if (nei != parentNode) { // skip the parentNode
-                int neiTimeCost = dfs(nei, curNode, graph, timeCostlkup, res, time);
+                int neiTimeCost = dfs(nei, curNode, graph, disc, res, time);
                 minTime = Math.min(minTime, neiTimeCost);
             }
         }
-        if (minTime >= timeCostlkup[curNode] && parentNode >= 0) {
+        if (minTime >= disc[curNode] && parentNode >= 0) {
             // then curNode and parentNode forms a bridge
             res.add(Arrays.asList(parentNode, curNode));
         }
-        return Math.min(minTime, timeCostlkup[curNode]);
+        return Math.min(minTime, disc[curNode]);
     }
 
     private Map<Integer, Set<Integer>> formGraph(List<List<Integer>> connection) {
