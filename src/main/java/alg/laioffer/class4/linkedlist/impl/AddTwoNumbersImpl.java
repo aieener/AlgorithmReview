@@ -4,47 +4,48 @@ import alg.laioffer.class4.linkedlist.AddTwoNumbers;
 import alg.laioffer.class4.linkedlist.ListNode;
 
 public class AddTwoNumbersImpl implements AddTwoNumbers {
-  public static void main(String[] args) {
-    ListNode first = new ListNode(9);
-    first.next = new ListNode(9);
-    first.next.next = new ListNode(9);
-    first.next.next.next = new ListNode(9);
-
-    ListNode second = new ListNode(1);
-    second.next = new ListNode(1);
-    AddTwoNumbers engine = new AddTwoNumbersImpl();
-    engine.addTwoNumbers(first, second);
-  }
-
   @Override
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-    ListNode dummy = new ListNode(-1);
-    ListNode cur = dummy;
-    int carry = 0;
-    while (l1 != null && l2 != null) {
-      int sum = carry + l1.value + l2.value;
-      int curVal = sum % 10;
-      carry = sum / 10;
-      cur.next = new ListNode(curVal);
-      l1 = l1.next;
-      l2 = l2.next;
-      cur = cur.next;
-    }
-    if (carry != 0) {
-      if (l1 != null) {
-        cur.next = addTwoNumbers(l1, new ListNode(1));
-      } else if (l2 != null) {
-        cur.next = addTwoNumbers(l2, new ListNode(1));
-      } else {
-        cur.next = new ListNode(1);
+      int l1Len = getLen(l1);
+      int l2Len = getLen(l2);
+      ListNode shorter = l1Len < l2Len ? l1 : l2;
+      ListNode longer = shorter == l1 ? l2 : l1;
+
+      int delta = Math.abs(l1Len - l2Len);
+      ListNode dummy = new ListNode(0);
+      ListNode runner = dummy;
+      int carry = 0;
+      while(longer != null) {
+          int shorterVal = shorter != null ? shorter.value : 0;
+          int curVal = shorterVal + longer.value + carry;
+
+          if(curVal >= 10) {
+              carry = curVal / 10;
+              curVal = curVal % 10;
+          } else {
+              carry = 0;
+          }
+          runner.next = new ListNode(curVal);
+          longer = longer.next;
+          if(shorter != null) {
+              shorter = shorter.next;
+          }
+          runner = runner.next;
       }
-    } else {
-      if (l1 != null) {
-        cur.next = l1;
-      } else if (l2 != null) {
-        cur.next = l2;
+
+      if(carry != 0) {
+          runner.next = new ListNode(carry);
       }
-    }
-    return dummy.next;
+
+      return dummy.next;
+  }
+
+  private int getLen(ListNode node) {
+      int len = 0;
+      while(node != null) {
+          node =node.next;
+          len++;
+      }
+      return len;
   }
 }

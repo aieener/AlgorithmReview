@@ -4,25 +4,22 @@ import alg.laioffer.class4.linkedlist.ListNode;
 import alg.laioffer.class4.linkedlist.RemoveLLElement;
 
 public class RemoveLLEmelentsImpl implements RemoveLLElement {
-  @Override
-  public ListNode removeElements(ListNode head, int val) {
-    if (head == null) return head;
-    ListNode cur = head;
-    ListNode prev = null;
-    while (cur != null) {
-      if (val == cur.value) {
-        //remove
-        if (prev == null) {
-          head = head.next;
-        } else {
-          prev.next = cur.next;
+    @Override
+    public ListNode removeElements(ListNode head, int val) {
+        if(head == null) return null;
+        ListNode dummy = new ListNode(0);
+        ListNode cur = head;
+        ListNode prev = dummy;
+        while(cur != null) {
+            if(cur.value == val) {
+                cur = cur.next;
+                prev.next = cur; // handling target is at tail case
+            } else {
+                prev.next = cur;
+                cur = cur.next;
+                prev = prev.next;
+            }
         }
-      } else {
-        // proceed
-        prev = cur;
-      }
-      cur = cur.next;
+        return dummy.next;
     }
-    return head;
-  }
 }

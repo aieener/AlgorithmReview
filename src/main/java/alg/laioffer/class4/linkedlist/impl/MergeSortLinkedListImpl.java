@@ -4,62 +4,47 @@ import alg.laioffer.class4.linkedlist.ListNode;
 import alg.laioffer.class4.linkedlist.MergeSortLinkedList;
 
 public class MergeSortLinkedListImpl implements MergeSortLinkedList {
-  public static void main(String[] args) {
-    ListNode head = new ListNode(6);
-    head.next = new ListNode(4);
-    head.next.next = new ListNode(5);
-    head.next.next.next = new ListNode(3);
-    head.next.next.next.next = new ListNode(1);
-    head.next.next.next.next.next = new ListNode(2);
-
-    MergeSortLinkedList engine = new MergeSortLinkedListImpl();
-    engine.mergeSort(head);
-  }
-
-  @Override
-  public ListNode mergeSort(ListNode head) {
-    if (head == null || head.next == null) return head;
-    ListNode midNode = getMiddle(head);
-    ListNode secHalf = midNode.next;
-    midNode.next = null;
-    ListNode first = mergeSort(head);
-    ListNode second = mergeSort(secHalf);
-    return merge(first, second);
-  }
-
-  private ListNode merge(ListNode first, ListNode second) {
-    if (first == null) return second;
-    if (second == null) return first;
-    ListNode dummyHead = new ListNode(-1);
-    ListNode cur = dummyHead;
-    while (first != null && second != null) {
-      if (first.value < second.value) {
-        cur.next = first;
-        first = first.next;
-      } else {
-        cur.next = second;
-        second = second.next;
-      }
-      cur = cur.next;
+    @Override
+    public ListNode mergeSort(ListNode head) {
+        // base case
+        if (head == null || head.next == null) return head;
+        ListNode mid = findMiddle(head);
+        ListNode otherHalf = mid.next;
+        mid.next = null;
+        ListNode firstSortedHalf = mergeSort(head);
+        ListNode otherSortedHalf = mergeSort(otherHalf);
+        return merge(firstSortedHalf, otherSortedHalf);
     }
 
-    if (first == null) {
-      cur.next = second;
-    } else {
-      cur.next = first;
+    private ListNode merge(ListNode base, ListNode other) {
+        ListNode dummy = new ListNode(0);
+        ListNode cur = dummy;
+        while (base != null && other != null) {
+            if (base.value < other.value) {
+                cur.next = base;
+                base = base.next;
+            } else {
+                cur.next = other;
+                other = other.next;
+            }
+            cur = cur.next;
+        }
+        if (base != null) {
+            cur.next = base;
+        } else {
+            cur.next = other;
+        }
+        return dummy.next;
     }
 
-    return dummyHead.next;
-  }
-
-  private ListNode getMiddle(ListNode head) {
-    if (head == null || head.next == null) return head;
-    ListNode slow = head;
-    ListNode fast = head.next;
-    while (fast != null && fast.next != null) {
-      slow = slow.next;
-      fast = fast.next.next;
+    private ListNode findMiddle(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
     }
-    return slow;
-  }
 }
