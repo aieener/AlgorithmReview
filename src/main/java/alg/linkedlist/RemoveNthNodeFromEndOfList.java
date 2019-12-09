@@ -1,4 +1,4 @@
-package alg.leetcode.linkedlist;
+package alg.linkedlist;
 
 import alg.laioffer.class4.linkedlist.ListNode;
 

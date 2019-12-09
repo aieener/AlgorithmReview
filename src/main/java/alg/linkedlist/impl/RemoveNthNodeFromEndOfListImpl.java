@@ -1,7 +1,7 @@
-package alg.leetcode.linkedlist.impl;
+package alg.linkedlist.impl;
 
 import alg.laioffer.class4.linkedlist.ListNode;
-import alg.leetcode.linkedlist.RemoveNthNodeFromEndOfList;
+import alg.linkedlist.RemoveNthNodeFromEndOfList;
 
 public class RemoveNthNodeFromEndOfListImpl implements RemoveNthNodeFromEndOfList {
     @Override
