@@ -1,5 +1,6 @@
 package alg.laioffer.class9.stringII.impl;
 
+import alg.laioffer.class8.stringI.hashtable.Strstr;
 import alg.laioffer.class9.stringII.StrReplace;
 
 import java.util.HashSet;
@@ -8,82 +9,111 @@ import java.util.Set;
 /**
  * input = "appledogapple", S = "apple", T = "cat", input becomes "catdogcat"
  * input = "laicode", S = "code", T = "offer", input becomes "laioffer"
+ * <p>
+ * last review Dec 14
  */
 
 public class StrReplaceImpl implements StrReplace {
-  public static void main(String[] args) {
-    String input = "dogcatdogcat";
-    StrReplace engine = new StrReplaceImpl();
-    System.out.println(engine.replace(input, "cat", "apple"));
-  }
-
-  @Override
-  public String replace(String input, String source, String target) {
-    char[] inputArr = input.toCharArray();
-    if (source.length() > target.length()) {
-      return replaceWhenSourceIsLonger(inputArr, source, target);
+    public static void main(String[] args) {
+        String input = "greenlanduzbekistanaustraliadominicabrazil";
+        String source = "brazil";
+        String target = "slovenia";
+        System.out.println(new StrReplaceImpl().replace(input, source, target));
     }
-    return replaceWhenTargetIsLonger(inputArr, source, target);
-  }
 
-  private String replaceWhenSourceIsLonger(char[] input, String source, String target) {
-    Set<Integer> indexesToReplace = findIdxesToReplace(input, source);
-    int endIdx = doReplace(0, indexesToReplace, input, source, target);
-    return new String(input, 0, endIdx);
-  }
-
-  private String replaceWhenTargetIsLonger(char[] input, String source, String target) {
-    Set<Integer> indexesToReplace = findIdxesToReplace(input, source);
-    // padding
-    int diff = indexesToReplace.size() * (target.length() - source.length());
-    char[] result = copyInputToResult(input, diff);
-    // replace
-    doReplace(diff, indexesToReplace, result, source, target);
-    return new String(result);
-  }
-
-  private int doReplace(int fast, Set<Integer> placeToReplace, char[] input, String source, String target) {
-    int slow = 0;
-    int origin = fast;
-    while (fast < input.length) {
-      if (placeToReplace.contains(fast - origin)) {
-        substitute(input, slow, target);
-        slow += target.length();
-        fast += source.length();
-      } else {
-        input[slow++] = input[fast++];
-      }
+    @Override
+    public String replace(String input, String source, String target) {
+        if (input == null || input.length() == 0) return input;
+        if (source.length() >= target.length()) return replaceSourceLonger(input, source, target);
+        return replaceTargetLonger(input, source, target);
     }
-    return slow;
-  }
 
-  private char[] copyInputToResult(char[] input, int diff) {
-    char[] result = new char[input.length + diff];
-    for (int i = 0; i < input.length; i++) {
-      result[result.length - i - 1] = input[input.length - i - 1];
-    }
-    return result;
-  }
+    private String replaceTargetLonger(String input, String source, String target) {
 
-  private Set<Integer> findIdxesToReplace(char[] input, String source) {
-    Set<Integer> result = new HashSet<>();
-    for (int i = 0; i <= input.length - source.length(); i++) {
-      if (isSubString(input, i, source)) result.add(i);
+        /*
+            laicodelaicode --> laiofferlaioffer
+             findSubstition end spot : 6, 13
+             padding laicodedoglaicode__
+                                       s
+                                     f
+             substitute laicodedoglaicoffer
+                                   <-s
+                                  <-f
+         */
+        char[] inputArr = input.toCharArray();
+        // find substition end spot
+        Set<Integer> subsSet = findSubstitutionEndIdx(inputArr, source);
+        // make padding arr
+        int padLen = subsSet.size() * (target.length() - source.length());
+        char[] resArr = makePaddingCharArr(inputArr, padLen);
+        // do substitution
+        return reverseSubstitude(resArr, subsSet, target, source, padLen);
     }
-    return result;
-  }
 
-  private void substitute(char[] input, int start, String target) {
-    for (Character cur : target.toCharArray()) {
-      input[start++] = cur;
+    private String reverseSubstitude(char[] resArr, Set<Integer> subsSet, String target, String source, int padLen) {
+        int slow = resArr.length - 1;
+        int fast = resArr.length - 1 - padLen;
+        for (; fast >= 0; fast--) {
+            if (subsSet.contains(fast)) {
+                substitude(resArr, slow - target.length() + 1, target);
+                slow -= target.length();
+                fast -= source.length() - 1;
+            } else {
+                resArr[slow--] = resArr[fast];
+            }
+        }
+        return new String(resArr);
     }
-  }
 
-  private boolean isSubString(char[] input, int start, String source) {
-    if (start + source.length() > input.length) return false;
-    for (int i = start; i < source.length() + start; i++) {
-      if (input[i] != source.charAt(i - start)) return false;
+    private char[] makePaddingCharArr(char[] oriInput, int padLen) {
+        char[] res = new char[padLen + oriInput.length];
+        for (int i = 0; i < oriInput.length; i++) {
+            res[i] = oriInput[i];
+        }
+        return res;
     }
-    return true;
-  }
+
+    private Set<Integer> findSubstitutionEndIdx(char[] input, String source) {
+        Set<Integer> res = new HashSet<>();
+        for (int i = 0; i <= input.length - source.length(); i++) {
+            if (strstr(input, i, source)) res.add(i + source.length() - 1);
+        }
+        return res;
+    }
+
+    private String replaceSourceLonger(String input, String source, String target) {
+        /*
+            semantic: [0, s] result
+                      (s,f) gabbage
+                      [f, end] unexplored
+         */
+        char[] inputArr = input.toCharArray();
+        int slow = 0;
+        int fast = 0;
+        for (; fast < input.length(); fast++) {
+            if (strstr(inputArr, fast, source)) {
+                substitude(inputArr, slow, target);
+                slow += target.length();
+                fast += source.length() - 1;
+            } else {
+                inputArr[slow++] = inputArr[fast];
+            }
+        }
+        return new String(inputArr, 0, slow);
+    }
+
+    private void substitude(char[] input, int start, String target) {
+        for (int i = 0; i < target.length(); i++) {
+            input[start + i] = target.charAt(i);
+        }
+    }
+
+    // test if input[start, start + other.length() - 1] == other
+    private boolean strstr(char[] input, int start, String other) {
+        if (start + other.length() > input.length) return false;
+        for (int i = 0; i < other.length(); i++) {
+            if (input[start + i] != other.charAt(i)) return false;
+        }
+        return true;
+    }
 }

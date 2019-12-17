@@ -11,24 +11,32 @@ public class LongestSubarrayContainsOnlyOnesImpl implements LongestSubarrayConta
      */
     @Override
     public int longestConsecutiveOnes(int[] nums, int k) {
-        if(k > 0 && nums.length == 1) return 1;
+        if (nums == null || nums.length == 0) return 0;
+        int count = 0;
         int slow = 0;
-        int counter = 0;
-        int globalRes = 0;
-        for(int fast = 0; fast < nums.length; fast++) {
-            if(nums[fast] == 0) counter++;
-            while(counter > k && slow <= fast) { // this is crucial, we have to make sure they cross to handle edge cases
-                if(nums[slow] == 0) counter--;
+        int fast = 0;
+        int res = 0;
+        // window [slow, fast) including fast
+        // 0,1,1,1,1,1,0,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0
+        //                                                 f
+        //   s
+        for(; fast < nums.length; fast++) {
+            if(nums[fast] == 0) count++;
+            while(slow < nums.length && count > k) {
+                if(nums[slow] == 0) {
+                    count--;
+                }
                 slow++;
             }
-            globalRes = Math.max(fast - slow + 1, globalRes);
+            res = Math.max(res, fast - slow + 1);
         }
-        return globalRes;
+        return res;
     }
 
     public static void main(String[] args) {
-        int [] input = new int[] {0};
+        int[] input = new int[]{0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0};
         LongestSubarrayContainsOnlyOnes engine = new LongestSubarrayContainsOnlyOnesImpl();
-        System.out.println(engine.longestConsecutiveOnes(input,0));
+
+        System.out.println(engine.longestConsecutiveOnes(input, 4));
     }
 }

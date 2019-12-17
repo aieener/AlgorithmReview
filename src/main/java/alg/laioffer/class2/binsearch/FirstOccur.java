@@ -10,9 +10,9 @@ public class FirstOccur {
     while (start + 1 < end) {
       int mid = start + (end - start) / 2;
       if(target <= array[mid]) {
-        mid = end; // find fistOccur, if equal let mid = end
+        end = mid; // find fistOccur, if equal let mid = end
       } else {
-        mid = start;
+        start = mid;
       }
     }
     if(array[start] == target) {
