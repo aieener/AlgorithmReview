@@ -1,4 +1,6 @@
-package alg.laioffer.class13.dp1;
+package alg.laioffer.class13.dp1.impl;
+
+import alg.laioffer.class13.dp1.ArrayHopperOne;
 
 /**
  * last review : 2/10/19
@@ -7,7 +9,7 @@ package alg.laioffer.class13.dp1;
  * induction rule: M[i] = M[i - j] where j is the distance i can reach
  * This one also uses left big chunck and right small chuck, small chuck means can't be cut
  */
-public class ArrayHopper {
+public class ArrayHopperOneImpl implements ArrayHopperOne {
     /**
      * Sol 1 M[i] means can jump from 0 to i
      * base case M[0] = true;
