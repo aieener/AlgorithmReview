@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="700cd87f-6a7f-4bcb-afc8-512dcfb89844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class11/recursionII/APowerB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class11/recursionII/impl/APowerBImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class11/recursionII/impl/SpiralOrderTraverseTwoRecurImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class13/dp1/ArrayHopperOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class13/dp1/Fib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class13/dp1/LongestAscendingSubArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class13/dp1/impl/FibDPImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class13/dp1/impl/LongestAscendingSubArrImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/ArrayHopperTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/LargestSquareOfOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/LargestSubArrSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/ArrayHopperTwoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/DictionaryWordOneImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/EditDistanceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/LargestSquareOfOnesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/LargestSubArrSumImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/LargestSquareOfMatches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/LargestSubMatrixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestSquareOfMatchesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestSubMatrixSumO3Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestSubMatrixSumO4Impl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class11/recursionII/impl/SpiralOrderTraverseOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class11/recursionII/impl/SpiralOrderTraverseOneImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class13/dp1/ArrayHopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class13/dp1/impl/ArrayHopperOneImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class13/dp1/LongestAscendingSubArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/ArrayHopperII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/DictionaryWordI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/DictionaryWordOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/LargestSubarraySum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/editDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/DictionaryWord1Impl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestSquareSurroundedByOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestSquareSurroundedByOneImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestXOfOnesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestXOfOnesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LongestConsecutiveOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LongestConsecutiveOneImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,13 +81,13 @@
       <recent name="alg.laioffer.class3.stackqueue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumOfDiffBitsImpl">
-    <configuration name="CompressStringTwoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class9.stringII.impl.CompressStringTwoImpl" />
+  <component name="RunManager" selected="Application.LargestSubMatrixSumO4Impl">
+    <configuration name="DictionaryWordOneImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class14.dp2.impl.DictionaryWordOneImpl" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.laioffer.class9.stringII.impl.*" />
+          <option name="PATTERN" value="alg.laioffer.class14.dp2.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +95,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubarrayContainsOnlyOnesImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class9.stringII.impl.LongestSubarrayContainsOnlyOnesImpl" />
+    <configuration name="LargestSquareOfMatchesImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class15.dp3.impl.LargestSquareOfMatchesImpl" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.laioffer.class9.stringII.impl.*" />
+          <option name="PATTERN" value="alg.laioffer.class15.dp3.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestSquareSurroundedByOneImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class15.dp3.impl.LargestSquareSurroundedByOneImpl" />
+      <module name="AlgorithmReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alg.laioffer.class15.dp3.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestSubMatrixSumO4Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class15.dp3.impl.LargestSubMatrixSumO4Impl" />
+      <module name="AlgorithmReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alg.laioffer.class15.dp3.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,39 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfTwoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class10.bit.impl.PowerOfTwoImpl" />
-      <module name="AlgorithmReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alg.laioffer.class10.bit.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReOrderArrayImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class9.stringII.impl.ReOrderArrayImpl" />
-      <module name="AlgorithmReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alg.laioffer.class9.stringII.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestSubMatrixSumO4Impl" />
+        <item itemvalue="Application.LargestSquareOfMatchesImpl" />
+        <item itemvalue="Application.LargestSquareSurroundedByOneImpl" />
+        <item itemvalue="Application.DictionaryWordOneImpl" />
         <item itemvalue="Application.NumOfDiffBitsImpl" />
-        <item itemvalue="Application.PowerOfTwoImpl" />
-        <item itemvalue="Application.LongestSubarrayContainsOnlyOnesImpl" />
-        <item itemvalue="Application.CompressStringTwoImpl" />
-        <item itemvalue="Application.ReOrderArrayImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +203,10 @@
       <workItem from="1576040002671" duration="37941000" />
       <workItem from="1576425552839" duration="4225000" />
       <workItem from="1576540089899" duration="11973000" />
-      <workItem from="1576632693893" duration="4553000" />
+      <workItem from="1576632693893" duration="10909000" />
+      <workItem from="1576795706887" duration="1844000" />
+      <workItem from="1576810898943" duration="4811000" />
+      <workItem from="1576882257280" duration="8445000" />
     </task>
     <servers />
   </component>
@@ -222,13 +236,13 @@
     </state>
     <state x="1065" y="156" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1575088018464" />
     <state x="1065" y="163" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575250511855" />
-    <state x="991" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1576642095930">
-      <screen x="0" y="23" width="1536" height="937" />
+    <state x="-670" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1576888567366">
+      <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state x="-484" y="258" key="#com.intellij.ide.util.MemberChooser/-1366.23.1366.1001/0.23.1792.1097@-1366.23.1366.1001" timestamp="1575223387669" />
     <state x="-664" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576125655322" />
-    <state x="-670" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576555440616" />
-    <state x="991" y="244" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576642095930" />
+    <state x="-670" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576888567366" />
+    <state x="991" y="244" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813645267" />
     <state x="-681" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576208963269" />
     <state x="1157" y="281" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1575841345314" />
     <state x="1322" y="319" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1257@0.23.2048.1257" timestamp="1576040107843" />
@@ -267,90 +281,90 @@
       <screen x="0" y="23" width="2048" height="1257" />
     </state>
     <state x="1235" y="538" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2048.1257@0.23.2048.1257" timestamp="1575850959477" />
-    <state width="1847" height="411" key="GridCell.Tab.0.bottom" timestamp="1576557927217">
+    <state width="1847" height="199" key="GridCell.Tab.0.bottom" timestamp="1576892392205">
       <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.bottom/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000213" />
     <state width="1831" height="146" key="GridCell.Tab.0.bottom/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272544" />
-    <state width="1847" height="411" key="GridCell.Tab.0.bottom/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576557927217" />
-    <state width="1494" height="149" key="GridCell.Tab.0.bottom/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576428860793" />
+    <state width="1847" height="199" key="GridCell.Tab.0.bottom/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892392205" />
+    <state width="1494" height="313" key="GridCell.Tab.0.bottom/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015636" />
     <state width="1831" height="146" key="GridCell.Tab.0.bottom/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210871535" />
     <state width="637" height="330" key="GridCell.Tab.0.bottom/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="189" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.bottom/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
-    <state width="1847" height="411" key="GridCell.Tab.0.center" timestamp="1576557927216">
+    <state width="1847" height="199" key="GridCell.Tab.0.center" timestamp="1576892392204">
       <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.center/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.center/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272543" />
-    <state width="1847" height="411" key="GridCell.Tab.0.center/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576557927216" />
-    <state width="1494" height="149" key="GridCell.Tab.0.center/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576428860792" />
+    <state width="1847" height="199" key="GridCell.Tab.0.center/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892392204" />
+    <state width="1494" height="313" key="GridCell.Tab.0.center/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015635" />
     <state width="1831" height="146" key="GridCell.Tab.0.center/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210871534" />
     <state width="637" height="330" key="GridCell.Tab.0.center/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="189" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.center/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
-    <state width="1847" height="411" key="GridCell.Tab.0.left" timestamp="1576557927216">
+    <state width="1847" height="199" key="GridCell.Tab.0.left" timestamp="1576892392203">
       <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.left/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.left/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272542" />
-    <state width="1847" height="411" key="GridCell.Tab.0.left/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576557927216" />
-    <state width="1494" height="149" key="GridCell.Tab.0.left/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576428860791" />
+    <state width="1847" height="199" key="GridCell.Tab.0.left/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892392203" />
+    <state width="1494" height="313" key="GridCell.Tab.0.left/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015635" />
     <state width="1831" height="146" key="GridCell.Tab.0.left/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210871533" />
     <state width="637" height="330" key="GridCell.Tab.0.left/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="189" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022643" />
     <state width="2006" height="128" key="GridCell.Tab.0.left/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
-    <state width="1847" height="411" key="GridCell.Tab.0.right" timestamp="1576557927216">
+    <state width="1847" height="199" key="GridCell.Tab.0.right" timestamp="1576892392204">
       <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.right/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.right/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272543" />
-    <state width="1847" height="411" key="GridCell.Tab.0.right/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576557927216" />
-    <state width="1494" height="149" key="GridCell.Tab.0.right/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576428860792" />
+    <state width="1847" height="199" key="GridCell.Tab.0.right/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892392204" />
+    <state width="1494" height="313" key="GridCell.Tab.0.right/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015636" />
     <state width="1831" height="146" key="GridCell.Tab.0.right/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210871534" />
     <state width="637" height="330" key="GridCell.Tab.0.right/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="189" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.right/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
-    <state width="1847" height="411" key="GridCell.Tab.1.bottom" timestamp="1576557927217">
+    <state width="1847" height="439" key="GridCell.Tab.1.bottom" timestamp="1576892307534">
       <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.bottom/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000183" />
     <state width="1831" height="208" key="GridCell.Tab.1.bottom/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253708" />
-    <state width="1847" height="411" key="GridCell.Tab.1.bottom/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576557927217" />
-    <state width="1494" height="314" key="GridCell.Tab.1.bottom/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576428746536" />
+    <state width="1847" height="439" key="GridCell.Tab.1.bottom/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892307534" />
+    <state width="1494" height="313" key="GridCell.Tab.1.bottom/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015775" />
     <state width="1831" height="392" key="GridCell.Tab.1.bottom/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210858615" />
     <state width="637" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576888" />
     <state width="1021" height="293" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179892" />
     <state width="2006" height="59" key="GridCell.Tab.1.bottom/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648831" />
-    <state width="1847" height="411" key="GridCell.Tab.1.center" timestamp="1576557927217">
+    <state width="1847" height="439" key="GridCell.Tab.1.center" timestamp="1576892307534">
       <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.center/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000182" />
     <state width="1831" height="208" key="GridCell.Tab.1.center/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253708" />
-    <state width="1847" height="411" key="GridCell.Tab.1.center/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576557927217" />
-    <state width="1494" height="314" key="GridCell.Tab.1.center/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576428746536" />
+    <state width="1847" height="439" key="GridCell.Tab.1.center/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892307534" />
+    <state width="1494" height="313" key="GridCell.Tab.1.center/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015775" />
     <state width="1831" height="392" key="GridCell.Tab.1.center/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210858614" />
     <state width="637" height="330" key="GridCell.Tab.1.center/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="293" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179891" />
     <state width="2006" height="59" key="GridCell.Tab.1.center/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648830" />
-    <state width="1847" height="411" key="GridCell.Tab.1.left" timestamp="1576557927217">
+    <state width="1847" height="439" key="GridCell.Tab.1.left" timestamp="1576892307533">
       <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.left/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000182" />
     <state width="1831" height="208" key="GridCell.Tab.1.left/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253707" />
-    <state width="1847" height="411" key="GridCell.Tab.1.left/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576557927217" />
-    <state width="1494" height="314" key="GridCell.Tab.1.left/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576428746536" />
+    <state width="1847" height="439" key="GridCell.Tab.1.left/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892307533" />
+    <state width="1494" height="313" key="GridCell.Tab.1.left/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015774" />
     <state width="1831" height="392" key="GridCell.Tab.1.left/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210858614" />
     <state width="637" height="330" key="GridCell.Tab.1.left/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="293" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179891" />
     <state width="2006" height="59" key="GridCell.Tab.1.left/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648830" />
-    <state width="1847" height="411" key="GridCell.Tab.1.right" timestamp="1576557927217">
+    <state width="1847" height="439" key="GridCell.Tab.1.right" timestamp="1576892307534">
       <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.right/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000183" />
     <state width="1831" height="208" key="GridCell.Tab.1.right/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253708" />
-    <state width="1847" height="411" key="GridCell.Tab.1.right/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576557927217" />
-    <state width="1494" height="314" key="GridCell.Tab.1.right/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576428746536" />
+    <state width="1847" height="439" key="GridCell.Tab.1.right/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892307534" />
+    <state width="1494" height="313" key="GridCell.Tab.1.right/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015775" />
     <state width="1831" height="392" key="GridCell.Tab.1.right/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210858615" />
     <state width="637" height="330" key="GridCell.Tab.1.right/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576888" />
     <state width="1021" height="293" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179891" />
@@ -366,11 +380,12 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="1129" y="482" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575250502260" />
-    <state x="-1309" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576633294014">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state x="472" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1576810901772">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="-947" y="363" key="com.intellij.ide.util.TipDialog/-1366.23.1366.1001/0.23.1792.1097@-1366.23.1366.1001" timestamp="1575223294246" />
-    <state x="-1309" y="343" key="com.intellij.ide.util.TipDialog/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576633294014" />
+    <state x="-1309" y="343" key="com.intellij.ide.util.TipDialog/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576795770983" />
+    <state x="472" y="341" key="com.intellij.ide.util.TipDialog/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576810901772" />
     <state x="550" y="377" key="com.intellij.ide.util.TipDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1575081837371" />
     <state x="550" y="396" key="com.intellij.ide.util.TipDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575735107742" />
     <state x="629" y="450" key="com.intellij.ide.util.TipDialog/0.23.2048.1257@0.23.2048.1257" timestamp="1576040004817" />
@@ -379,9 +394,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="1012" y="267" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1575522418506" />
-    <state x="1082" y="332" key="extract.method.dialog" timestamp="1575339666108">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="-748" y="275" key="extract.method.dialog" timestamp="1576889163987">
+      <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
+    <state x="-748" y="275" key="extract.method.dialog/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576889163987" />
     <state x="1082" y="332" key="extract.method.dialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575339666108" />
     <state x="444" y="176" width="689" height="631" key="find.popup" timestamp="1576642485024">
       <screen x="0" y="23" width="1536" height="937" />

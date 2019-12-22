@@ -5,64 +5,41 @@ import alg.laioffer.class15.dp3.LargestSquareSurroundedByOne;
 public class LargestSquareSurroundedByOneImpl implements LargestSquareSurroundedByOne {
   @Override
   public int largestSquareSurroundedByOne(int[][] matrix) {
-    // step 1 preprocessing
-    int[][] MRightToLeft = getMRightToLeft(matrix);
-    int[][] MDownToUp = getMDownToUp(matrix);
-
+    // find right bottom corner, compare leftM and rightM take min
+    // then check [row, col - min], and [row - min][col], if their M >= min
+    if(matrix==null || matrix.length == 0 || matrix[0].length == 0) return 0;
     int rowLen = matrix.length;
     int colLen = matrix[0].length;
-    // step 2 check
-    int res = 0;
-    for (int row = 0; row < rowLen; row++) {
-      for (int col = 0; col < colLen; col++) {
-        int horArmLen = MRightToLeft[row][col];
-        int verArmLen = MDownToUp[row][col];
-        int armLen = Math.min(horArmLen, verArmLen);
-        int proposeLen = armLen;
-        for (int delta = armLen - 1; delta >= 0; delta--) {
-          int curRow = row + delta;
-          int curCol = col + delta;
-          if (MRightToLeft[curRow][col] >= proposeLen && MDownToUp[row][curCol] >= proposeLen) break;
-          proposeLen--;
-        }
-        res = Math.max(res, proposeLen);
+    int[][] MlTor = new int[rowLen][colLen];
+    int[][] MuTod = new int[rowLen][colLen];
+
+    // left to right
+    for(int row = 0; row < rowLen; row++) {
+      MlTor[row][0] = matrix[row][0] == 1 ? 1 : 0;
+      for(int col = 1; col < colLen; col++) {
+        MlTor[row][col] = matrix[row][col] == 1 ? MlTor[row][col - 1] + 1 : 0;
       }
     }
-    return res;
-  }
-
-  private int[][] getMRightToLeft(int[][] matrix) {
-    int rowLen = matrix.length;
-    int colLen = matrix[0].length;
-    int[][] MRightToLeft = new int[rowLen][colLen];
-    for (int row = 0; row < rowLen; row++) {
-      for (int col = colLen - 1; col >= 0; col--) {
-        if(matrix[row][col] == 1) {
-          MRightToLeft[row][col] = getNumber(MRightToLeft, row, col + 1) + 1;
-        }
+    // up to down
+    for(int col = 0; col < colLen; col++) {
+      MuTod[0][col] = matrix[0][col] == 1 ? 1 : 0;
+      for(int row = 1; row < rowLen; row++) {
+        MuTod[row][col] = matrix[row][col] == 1 ? MuTod[row - 1][col] + 1 : 0;
       }
     }
-    return MRightToLeft;
-  }
-
-  private int getNumber(int[][] m, int row, int col) {
-    int rowLen = m.length;
-    int colLen = m[0].length;
-    if (row < 0 || row >= rowLen || col < 0 || col >= colLen) return 0;
-    return m[row][col];
-  }
-
-  private int[][] getMDownToUp(int[][] matrix) {
-    int rowLen = matrix.length;
-    int colLen = matrix[0].length;
-    int[][] MDownToUp = new int[rowLen][colLen];
-    for (int col = 0; col < colLen; col++) {
-      for (int row = rowLen - 1; row >= 0; row--) {
-        if(matrix[row][col] == 1) {
-          MDownToUp[row][col] = getNumber(MDownToUp, row + 1, col) + 1;
+    int globalMax = 0;
+    for(int row = 0; row < rowLen; row++) {
+      for(int col = 0; col < colLen; col++) {
+        int candidateLen = Math.min(MlTor[row][col], MuTod[row][col]);
+        while(candidateLen >0) {
+          // validate left bottom corner
+          // and validate right to corner
+          if(MuTod[row][col - candidateLen + 1] >= candidateLen && MlTor[row - candidateLen + 1][col] >= candidateLen) break;
+          candidateLen--;
         }
+        globalMax = Math.max(globalMax, candidateLen);
       }
     }
-    return MDownToUp;
+    return globalMax;
   }
 }

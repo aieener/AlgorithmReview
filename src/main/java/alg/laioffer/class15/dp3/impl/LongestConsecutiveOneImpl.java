@@ -10,14 +10,17 @@ public class LongestConsecutiveOneImpl implements LongestConsecutiveOnes {
    */
   @Override
   public int longest(int[] array) {
-    if (array == null || array.length == 0) return 0;
-    int prevMax = array[0] == 1 ? 1 : 0;
-    int res = prevMax;
-    for (int i = 1; i < array.length; i++) {
-      int curMax = array[i] == 1 ? prevMax + 1 : 0;
-      res = Math.max(curMax, res);
-      prevMax = curMax;
+    if(array == null || array.length == 0) return 0;
+    int globalMax = array[0] == 1 ? 1 : 0;
+    int curMaxIncludingCur = globalMax;
+    for(int i = 1; i < array.length; i++) {
+      if(array[i] == 1) {
+        curMaxIncludingCur++;
+      } else {
+        curMaxIncludingCur = 0;
+      }
+      globalMax = Math.max(globalMax, curMaxIncludingCur);
     }
-    return res;
+    return globalMax;
   }
 }
