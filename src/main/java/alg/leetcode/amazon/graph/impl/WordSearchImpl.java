@@ -3,7 +3,7 @@ package alg.leetcode.amazon.graph.impl;
 import alg.leetcode.amazon.graph.WordSearch;
 
 /**
- * Time complexity: O(m * n * 4^k) where k is the length of the word
+ * Time complexity: O(m * n * 4^k) where k is the length of the word ( really it should be 3^k, don't have to search on parent stream direction)
  * dfs has been called m * n times
  * each dfs on the worst case would run O(4^k) 4 branch for each layer, and there are k layers
  */

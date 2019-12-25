@@ -2,29 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="700cd87f-6a7f-4bcb-afc8-512dcfb89844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/ArrayHopperTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/LargestSquareOfOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/LargestSubArrSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/ArrayHopperTwoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/DictionaryWordOneImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/EditDistanceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/LargestSquareOfOnesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/LargestSubArrSumImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/LargestSquareOfMatches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/LargestSubMatrixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestSquareOfMatchesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestSubMatrixSumO3Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestSubMatrixSumO4Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/MedianTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/Random1000UsingRandom5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/S95Percentile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/impl/MedianTrackerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/impl/Random1000UsingRandom5Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/impl/S95PercentileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/LargestSetOfPointWithPositiveSlope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/LongestAscendingSubSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/impl/LargestSetOfPointWithPositiveSlopeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/impl/LongestAscendingSebSeqImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/impl/LongestCommonSubSequenceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/impl/LongestCommonSubStringImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/impl/MostPointsOnALineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/WordSearchOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/impl/WordSearchOneImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/impl/WordSearchTwoCharImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/google/lc/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/google/lc/NextGreaterElementTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/google/lc/OddEvenJumps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/google/lc/UniqEmailAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/google/lc/impl/NextGreaterElementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/google/lc/impl/NextGreaterElementTwoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/google/lc/impl/OddEvenJumpsMonoStackImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/google/lc/impl/OddEvenJumpsNaiveImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/google/lc/impl/OddEvenJumpsTreeMapImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/google/lc/impl/UniqEmailAddressImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/ArrayHopperII.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/DictionaryWordI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/DictionaryWordOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/LargestSubarraySum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/editDistance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class14/dp2/impl/DictionaryWord1Impl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestSquareSurroundedByOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestSquareSurroundedByOneImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestXOfOnesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LargestXOfOnesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LongestConsecutiveOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class15/dp3/impl/LongestConsecutiveOneImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/impl/GeneralizedReservoirSamplingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/impl/GeneralizedReservoirSamplingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/impl/Random7ByRandom5Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/impl/Random7ByRandom5Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/impl/ReservoirSamplingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class12/probsampling/impl/ReservoirSamplingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/LongestAscendingSubSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/LongestCommonSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/LongestCommonSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/MostPointsOnALine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/MostPointsOnALine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/trie/AutoCompleteSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/AutoCompleteSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/trie/FindAllPrefixable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/FindAllPrefixable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/trie/WordSearchII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/WordSearchTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/trie/impl/TireWithFindAllPredixableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/impl/TireWithFindAllPredixableImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/trie/impl/TrieImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/impl/TrieImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/trie/impl/WordSearchIIImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/impl/WordSearchTwoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/FiretNonRepeatingCharInStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/FiretNonRepeatingCharInStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/FirstNonRepeatingCharInStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/FirstNonRepeatingCharInStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/KthSmallestInTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/KthSmallestInTwoSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/MajorityNumOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/MajorityNumOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/MajorityNumThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/MajorityNumThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/MajorityNumTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/MajorityNumTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/MaxValOfKSizeSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/MaxValOfKSizeSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/MedianOfTwoSortedArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/MedianOfTwoSortedArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/impl/FirstNonRepeatingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/FirstNonRepeatingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/impl/KthSmallestInTwoSortedArrayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/KthSmallestInTwoSortedArrayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/impl/LRUCacheImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/LRUCacheImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/impl/MajorityNumOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/MajorityNumOneImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/impl/MajorityNumThreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/MajorityNumThreeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/impl/MajorityNumTwoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/MajorityNumTwoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/impl/MaxValOfKSizeSlidingWIndowImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/MaxValOfKSizeSlidingWIndowImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/impl/MaxValOfKSizeSlidingWindowTreeSetImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/MaxValOfKSizeSlidingWindowTreeSetImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining4/impl/MedianOfTwoSortedArrImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/MedianOfTwoSortedArrImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/leetcode/amazon/graph/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/leetcode/amazon/graph/WordSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/leetcode/amazon/graph/impl/WordSearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/leetcode/amazon/graph/impl/WordSearchImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +75,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -81,13 +119,13 @@
       <recent name="alg.laioffer.class3.stackqueue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestSubMatrixSumO4Impl">
-    <configuration name="DictionaryWordOneImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class14.dp2.impl.DictionaryWordOneImpl" />
+  <component name="RunManager" selected="Application.LongestAscendingSebSeqImpl">
+    <configuration name="LargestSetOfPointWithPositiveSlopeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class34.adv7dp4.impl.LargestSetOfPointWithPositiveSlopeImpl" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.laioffer.class14.dp2.impl.*" />
+          <option name="PATTERN" value="alg.laioffer.class34.adv7dp4.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestSquareOfMatchesImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class15.dp3.impl.LargestSquareOfMatchesImpl" />
+    <configuration name="LongestAscendingSebSeqImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class34.adv7dp4.impl.LongestAscendingSebSeqImpl" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.laioffer.class15.dp3.impl.*" />
+          <option name="PATTERN" value="alg.laioffer.class34.adv7dp4.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestSquareSurroundedByOneImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class15.dp3.impl.LargestSquareSurroundedByOneImpl" />
+    <configuration name="OddEvenJumpsMonoStackImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.oa.google.lc.impl.OddEvenJumpsMonoStackImpl" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.laioffer.class15.dp3.impl.*" />
+          <option name="PATTERN" value="alg.oa.google.lc.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestSubMatrixSumO4Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class15.dp3.impl.LargestSubMatrixSumO4Impl" />
+    <configuration name="WordSearchOneImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class36.adv8trie.impl.WordSearchOneImpl" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.laioffer.class15.dp3.impl.*" />
+          <option name="PATTERN" value="alg.laioffer.class36.adv8trie.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumOfDiffBitsImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class10.bit.impl.NumOfDiffBitsImpl" />
+    <configuration name="WordSearchTwoCharImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.laioffer.class36.adv8trie.impl.WordSearchTwoCharImpl" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.laioffer.class10.bit.impl.*" />
+          <option name="PATTERN" value="alg.laioffer.class36.adv8trie.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LargestSubMatrixSumO4Impl" />
-        <item itemvalue="Application.LargestSquareOfMatchesImpl" />
-        <item itemvalue="Application.LargestSquareSurroundedByOneImpl" />
-        <item itemvalue="Application.DictionaryWordOneImpl" />
-        <item itemvalue="Application.NumOfDiffBitsImpl" />
+        <item itemvalue="Application.LongestAscendingSebSeqImpl" />
+        <item itemvalue="Application.LargestSetOfPointWithPositiveSlopeImpl" />
+        <item itemvalue="Application.OddEvenJumpsMonoStackImpl" />
+        <item itemvalue="Application.WordSearchTwoCharImpl" />
+        <item itemvalue="Application.WordSearchOneImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +244,10 @@
       <workItem from="1576632693893" duration="10909000" />
       <workItem from="1576795706887" duration="1844000" />
       <workItem from="1576810898943" duration="4811000" />
-      <workItem from="1576882257280" duration="8445000" />
+      <workItem from="1576882257280" duration="12489000" />
+      <workItem from="1576986600877" duration="5948000" />
+      <workItem from="1577034454681" duration="14797000" />
+      <workItem from="1577153669401" duration="26081000" />
     </task>
     <servers />
   </component>
@@ -236,16 +277,17 @@
     </state>
     <state x="1065" y="156" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1575088018464" />
     <state x="1065" y="163" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575250511855" />
-    <state x="-670" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1576888567366">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state x="991" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1577247481850">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="-484" y="258" key="#com.intellij.ide.util.MemberChooser/-1366.23.1366.1001/0.23.1792.1097@-1366.23.1366.1001" timestamp="1575223387669" />
     <state x="-664" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576125655322" />
-    <state x="-670" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576888567366" />
-    <state x="991" y="244" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813645267" />
+    <state x="-670" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577051295457" />
+    <state x="991" y="244" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1577247481850" />
     <state x="-681" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576208963269" />
     <state x="1157" y="281" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1575841345314" />
     <state x="1322" y="319" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1257@0.23.2048.1257" timestamp="1576040107843" />
+    <state x="1167" y="282" key="#com.intellij.ide.util.MemberChooser/31.23.1761.1097@31.23.1761.1097" timestamp="1577235219481" />
     <state x="-757" y="311" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576109503405">
       <screen x="-1873" y="-57" width="1873" height="1177" />
     </state>
@@ -264,9 +306,11 @@
     <state x="-715" y="413" width="440" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576109504688" />
     <state x="1108" y="461" width="481" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1097@0.23.1792.1097" timestamp="1575779421455" />
     <state x="1266" y="525" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.2048.1257@0.23.2048.1257" timestamp="1575849695853" />
-    <state x="696" y="23" width="476" height="1097" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575953219696">
-      <screen x="0" y="23" width="2048" height="1257" />
+    <state x="-1247" y="-57" width="586" height="1177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577034258614">
+      <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
+    <state x="-1247" y="-57" width="586" height="1177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577034258614" />
+    <state x="522" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576982255025" />
     <state x="609" y="23" width="476" height="1097" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575378057069" />
     <state x="696" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2048.1257@0.23.2048.1257" timestamp="1575953219696" />
     <state x="-1176" y="330" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576429440236">
@@ -281,94 +325,102 @@
       <screen x="0" y="23" width="2048" height="1257" />
     </state>
     <state x="1235" y="538" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2048.1257@0.23.2048.1257" timestamp="1575850959477" />
-    <state width="1847" height="199" key="GridCell.Tab.0.bottom" timestamp="1576892392205">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state width="1847" height="236" key="GridCell.Tab.0.bottom" timestamp="1577242578380">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.bottom/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000213" />
     <state width="1831" height="146" key="GridCell.Tab.0.bottom/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272544" />
-    <state width="1847" height="199" key="GridCell.Tab.0.bottom/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892392205" />
-    <state width="1494" height="313" key="GridCell.Tab.0.bottom/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015636" />
+    <state width="1847" height="236" key="GridCell.Tab.0.bottom/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577241187018" />
+    <state width="1847" height="236" key="GridCell.Tab.0.bottom/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1577242578380" />
     <state width="1831" height="146" key="GridCell.Tab.0.bottom/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210871535" />
     <state width="637" height="330" key="GridCell.Tab.0.bottom/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="189" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.bottom/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
-    <state width="1847" height="199" key="GridCell.Tab.0.center" timestamp="1576892392204">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state width="1227" height="320" key="GridCell.Tab.0.bottom/31.23.1761.1097@31.23.1761.1097" timestamp="1577228378247" />
+    <state width="1847" height="236" key="GridCell.Tab.0.center" timestamp="1577242578379">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.center/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.center/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272543" />
-    <state width="1847" height="199" key="GridCell.Tab.0.center/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892392204" />
-    <state width="1494" height="313" key="GridCell.Tab.0.center/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015635" />
+    <state width="1847" height="236" key="GridCell.Tab.0.center/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577241187018" />
+    <state width="1847" height="236" key="GridCell.Tab.0.center/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1577242578379" />
     <state width="1831" height="146" key="GridCell.Tab.0.center/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210871534" />
     <state width="637" height="330" key="GridCell.Tab.0.center/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="189" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.center/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
-    <state width="1847" height="199" key="GridCell.Tab.0.left" timestamp="1576892392203">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state width="1227" height="320" key="GridCell.Tab.0.center/31.23.1761.1097@31.23.1761.1097" timestamp="1577228378246" />
+    <state width="1847" height="236" key="GridCell.Tab.0.left" timestamp="1577242578379">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.left/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.left/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272542" />
-    <state width="1847" height="199" key="GridCell.Tab.0.left/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892392203" />
-    <state width="1494" height="313" key="GridCell.Tab.0.left/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015635" />
+    <state width="1847" height="236" key="GridCell.Tab.0.left/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577241187017" />
+    <state width="1847" height="236" key="GridCell.Tab.0.left/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1577242578379" />
     <state width="1831" height="146" key="GridCell.Tab.0.left/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210871533" />
     <state width="637" height="330" key="GridCell.Tab.0.left/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="189" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022643" />
     <state width="2006" height="128" key="GridCell.Tab.0.left/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
-    <state width="1847" height="199" key="GridCell.Tab.0.right" timestamp="1576892392204">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state width="1227" height="320" key="GridCell.Tab.0.left/31.23.1761.1097@31.23.1761.1097" timestamp="1577228378246" />
+    <state width="1847" height="236" key="GridCell.Tab.0.right" timestamp="1577242578380">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.right/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.right/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272543" />
-    <state width="1847" height="199" key="GridCell.Tab.0.right/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892392204" />
-    <state width="1494" height="313" key="GridCell.Tab.0.right/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015636" />
+    <state width="1847" height="236" key="GridCell.Tab.0.right/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577241187018" />
+    <state width="1847" height="236" key="GridCell.Tab.0.right/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1577242578380" />
     <state width="1831" height="146" key="GridCell.Tab.0.right/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210871534" />
     <state width="637" height="330" key="GridCell.Tab.0.right/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="189" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.right/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
-    <state width="1847" height="439" key="GridCell.Tab.1.bottom" timestamp="1576892307534">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state width="1227" height="320" key="GridCell.Tab.0.right/31.23.1761.1097@31.23.1761.1097" timestamp="1577228378247" />
+    <state width="1847" height="417" key="GridCell.Tab.1.bottom" timestamp="1577242446270">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.bottom/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000183" />
     <state width="1831" height="208" key="GridCell.Tab.1.bottom/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253708" />
-    <state width="1847" height="439" key="GridCell.Tab.1.bottom/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892307534" />
-    <state width="1494" height="313" key="GridCell.Tab.1.bottom/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015775" />
+    <state width="1847" height="544" key="GridCell.Tab.1.bottom/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577241015993" />
+    <state width="1847" height="417" key="GridCell.Tab.1.bottom/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1577242446270" />
     <state width="1831" height="392" key="GridCell.Tab.1.bottom/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210858615" />
     <state width="637" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576888" />
     <state width="1021" height="293" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179892" />
     <state width="2006" height="59" key="GridCell.Tab.1.bottom/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648831" />
-    <state width="1847" height="439" key="GridCell.Tab.1.center" timestamp="1576892307534">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state width="1227" height="320" key="GridCell.Tab.1.bottom/31.23.1761.1097@31.23.1761.1097" timestamp="1577228378386" />
+    <state width="1847" height="417" key="GridCell.Tab.1.center" timestamp="1577242446270">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.center/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000182" />
     <state width="1831" height="208" key="GridCell.Tab.1.center/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253708" />
-    <state width="1847" height="439" key="GridCell.Tab.1.center/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892307534" />
-    <state width="1494" height="313" key="GridCell.Tab.1.center/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015775" />
+    <state width="1847" height="544" key="GridCell.Tab.1.center/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577241015992" />
+    <state width="1847" height="417" key="GridCell.Tab.1.center/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1577242446270" />
     <state width="1831" height="392" key="GridCell.Tab.1.center/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210858614" />
     <state width="637" height="330" key="GridCell.Tab.1.center/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="293" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179891" />
     <state width="2006" height="59" key="GridCell.Tab.1.center/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648830" />
-    <state width="1847" height="439" key="GridCell.Tab.1.left" timestamp="1576892307533">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state width="1227" height="320" key="GridCell.Tab.1.center/31.23.1761.1097@31.23.1761.1097" timestamp="1577228378385" />
+    <state width="1847" height="417" key="GridCell.Tab.1.left" timestamp="1577242446269">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.left/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000182" />
     <state width="1831" height="208" key="GridCell.Tab.1.left/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253707" />
-    <state width="1847" height="439" key="GridCell.Tab.1.left/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892307533" />
-    <state width="1494" height="313" key="GridCell.Tab.1.left/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015774" />
+    <state width="1847" height="544" key="GridCell.Tab.1.left/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577241015992" />
+    <state width="1847" height="417" key="GridCell.Tab.1.left/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1577242446269" />
     <state width="1831" height="392" key="GridCell.Tab.1.left/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210858614" />
     <state width="637" height="330" key="GridCell.Tab.1.left/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576887" />
     <state width="1021" height="293" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179891" />
     <state width="2006" height="59" key="GridCell.Tab.1.left/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648830" />
-    <state width="1847" height="439" key="GridCell.Tab.1.right" timestamp="1576892307534">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state width="1227" height="320" key="GridCell.Tab.1.left/31.23.1761.1097@31.23.1761.1097" timestamp="1577228378385" />
+    <state width="1847" height="417" key="GridCell.Tab.1.right" timestamp="1577242446270">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.right/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000183" />
     <state width="1831" height="208" key="GridCell.Tab.1.right/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253708" />
-    <state width="1847" height="439" key="GridCell.Tab.1.right/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576892307534" />
-    <state width="1494" height="313" key="GridCell.Tab.1.right/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576813015775" />
+    <state width="1847" height="544" key="GridCell.Tab.1.right/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577241015993" />
+    <state width="1847" height="417" key="GridCell.Tab.1.right/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1577242446270" />
     <state width="1831" height="392" key="GridCell.Tab.1.right/0.23.1536.937/-1920.-57.1920.1177@-1920.-57.1920.1177" timestamp="1576210858615" />
     <state width="637" height="330" key="GridCell.Tab.1.right/0.23.1792.1041@0.23.1792.1041" timestamp="1575090576888" />
     <state width="1021" height="293" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179891" />
     <state width="2006" height="59" key="GridCell.Tab.1.right/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648830" />
+    <state width="1227" height="320" key="GridCell.Tab.1.right/31.23.1761.1097@31.23.1761.1097" timestamp="1577228378386" />
     <state x="-1096" y="102" key="SettingsEditor" timestamp="1576118439467">
       <screen x="-1873" y="-57" width="1873" height="1177" />
     </state>
@@ -380,12 +432,12 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="1129" y="482" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575250502260" />
-    <state x="472" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1576810901772">
-      <screen x="0" y="23" width="1536" height="937" />
+    <state x="-1309" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577153669669">
+      <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state x="-947" y="363" key="com.intellij.ide.util.TipDialog/-1366.23.1366.1001/0.23.1792.1097@-1366.23.1366.1001" timestamp="1575223294246" />
-    <state x="-1309" y="343" key="com.intellij.ide.util.TipDialog/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576795770983" />
-    <state x="472" y="341" key="com.intellij.ide.util.TipDialog/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576810901772" />
+    <state x="-1309" y="343" key="com.intellij.ide.util.TipDialog/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577153669669" />
+    <state x="472" y="341" key="com.intellij.ide.util.TipDialog/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576986602149" />
     <state x="550" y="377" key="com.intellij.ide.util.TipDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1575081837371" />
     <state x="550" y="396" key="com.intellij.ide.util.TipDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575735107742" />
     <state x="629" y="450" key="com.intellij.ide.util.TipDialog/0.23.2048.1257@0.23.2048.1257" timestamp="1576040004817" />
@@ -394,21 +446,23 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="1012" y="267" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1575522418506" />
-    <state x="-748" y="275" key="extract.method.dialog" timestamp="1576889163987">
+    <state x="-748" y="275" key="extract.method.dialog" timestamp="1577049040214">
       <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
-    <state x="-748" y="275" key="extract.method.dialog/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576889163987" />
+    <state x="-748" y="275" key="extract.method.dialog/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577049040214" />
     <state x="1082" y="332" key="extract.method.dialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575339666108" />
-    <state x="444" y="176" width="689" height="631" key="find.popup" timestamp="1576642485024">
-      <screen x="0" y="23" width="1536" height="937" />
+    <state x="-1343" y="135" width="848" height="793" key="find.popup" timestamp="1577034104103">
+      <screen x="-1889" y="-57" width="1889" height="1177" />
     </state>
     <state x="-1332" y="135" width="790" height="792" key="find.popup/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576125327907" />
+    <state x="-1343" y="135" width="848" height="793" key="find.popup/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577034104103" />
     <state x="444" y="176" width="689" height="631" key="find.popup/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576642485024" />
-    <state x="-1408" y="202" width="927" height="796" key="search.everywhere.popup" timestamp="1576378278088">
-      <screen x="-1889" y="-57" width="1889" height="1177" />
+    <state x="391" y="229" width="754" height="634" key="search.everywhere.popup" timestamp="1577244249646">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="-1018" y="244" width="670" height="676" key="search.everywhere.popup/-1366.23.1366.1001/0.23.1792.1097@-1366.23.1366.1001" timestamp="1575223198823" />
     <state x="-1408" y="202" width="927" height="796" key="search.everywhere.popup/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576378278088" />
+    <state x="391" y="229" width="754" height="634" key="search.everywhere.popup/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1577244249646" />
     <state x="457" y="265" width="879" height="741" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1575782495669" />
     <state x="522" y="300" width="1005" height="850" key="search.everywhere.popup/0.23.2048.1257@0.23.2048.1257" timestamp="1576039403365" />
   </component>
@@ -429,6 +483,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/alg/leedcodeFav/slidingwindow/impl/MinimumWindowSubstringImpl.java</url>
           <line>29</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/impl/WordSearchTwoCharImpl.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/alg/laioffer/class36/adv8trie/impl/WordSearchTwoCharImpl.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/alg/oa/google/lc/impl/OddEvenJumpsMonoStackImpl.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

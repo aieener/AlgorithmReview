@@ -25,7 +25,9 @@ public class GeneralizedReservoirSamplingImpl implements GeneralizedReservoirSam
     if (count <= k) {
       result.add(value);
     } else {
-      int prob = rand.nextInt(count);
+      int prob = rand.nextInt(count); // prob = [0, totalSize)
+      // [0--------(K-1)]K ----
+      // probToEvictAndAdd = k / totalSize,
       if (prob < k) {
         result.set(prob, value);
       }

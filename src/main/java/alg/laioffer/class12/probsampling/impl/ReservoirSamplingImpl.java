@@ -18,6 +18,7 @@ public class ReservoirSamplingImpl implements ReservoirSampling {
   public void read(int value) {
     count++;
     int prob = rand.nextInt(count);
+    // the current read val has prob = 1/count to be as current sample
     if(prob == 0) {
       sample = value;
     }

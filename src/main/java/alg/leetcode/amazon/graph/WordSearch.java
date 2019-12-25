@@ -1,7 +1,7 @@
 package alg.leetcode.amazon.graph;
 
-/**
- *board =
+/*
+ * board =
  * [
  *   ['A','B','C','E'],
  *   ['S','F','C','S'],
@@ -15,5 +15,5 @@ package alg.leetcode.amazon.graph;
  * WordSearchII is at Trie section of LaiOffer
  */
 public interface WordSearch {
-  public boolean exist(char[][] board, String word);
+    boolean exist(char[][] board, String word);
 }

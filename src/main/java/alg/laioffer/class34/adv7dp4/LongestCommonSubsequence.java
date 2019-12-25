@@ -1,4 +1,5 @@
 package alg.laioffer.class34.adv7dp4;
 
-public class LongestCommonSubsequence {
+public interface LongestCommonSubsequence {
+    int longest(String source, String target);
 }
