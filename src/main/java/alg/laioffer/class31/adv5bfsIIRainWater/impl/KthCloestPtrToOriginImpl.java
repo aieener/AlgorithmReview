@@ -39,7 +39,7 @@ public class KthCloestPtrToOriginImpl implements KthClosestPtrToOrigin {
       }
     }
     Ptr res = minHeap.peek();
-    return Arrays.asList(a[res.ai], b[res.bi], b[res.ci]);
+    return Arrays.asList(a[res.ai], b[res.bi], c[res.ci]);
   }
 
   private Integer getDistance(int[] a, int[] b, int[] c, Ptr ptr) {

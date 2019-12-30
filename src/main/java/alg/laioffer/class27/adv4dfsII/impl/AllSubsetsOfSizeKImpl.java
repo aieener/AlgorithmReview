@@ -23,7 +23,7 @@ public class AllSubsetsOfSizeKImpl implements AllSubsetsOfSizeK {
     //base case
     if (curSol.length() == k || curLevel == set.length()) {
       if (curSol.length() == k) {
-        res.add(curSol.toString());
+        res.add(curSol.toString()); // for this case we also have to return! other wise it will be added twice!!!
       }
       return;
     }

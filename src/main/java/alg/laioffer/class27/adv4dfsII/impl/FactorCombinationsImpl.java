@@ -73,15 +73,25 @@ public class FactorCombinationsImpl implements FactorCombinations {
 
   private List<Integer> findAllFactors(int target) {
     List<Integer> res = new ArrayList<>();
-    int right = target;
-    for (int left = 1; left < right; left++) {
-      if (target % (left + 1) == 0) {
-        right = target / (left + 1);
-        if (left < right) {
-          res.add(left + 1);
-          if (right != left + 1) res.add(right);
-        }
+    int start = 2;
+    int end = target - 1;
+    while (start + 1 < end) {
+      if (start * end == target) {
+        res.add(start++);
+        res.add(end--);
+      } else if (start * end < target) {
+        start++;
+      } else {
+        end--;
       }
+    }
+    if (start * end == target) {
+      res.add(start);
+      res.add(end);
+    } else if (start * start == target) {
+      res.add(start);
+    } else if (end * end == target) {
+      res.add(end);
     }
     return res;
   }

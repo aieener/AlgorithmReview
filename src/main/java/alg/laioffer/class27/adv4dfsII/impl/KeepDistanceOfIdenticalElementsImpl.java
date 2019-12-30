@@ -17,41 +17,39 @@ public class KeepDistanceOfIdenticalElementsImpl implements KeepDistanceForInden
 
   @Override
   public int[] keepDistance(int k) {
-    int[] array = new int[2 * k];
-    int[] result = new int[2 * k];
-    Arrays.fill(array, 0);
-    helper(array, k, 2 * k, result); // number is filling from big to small: K, K-1, K-2,...., 1
-    return isValid(result, 2 * k) ? result : null;
+    // Write your solution here.
+    int[] arr = new int[2 * k];
+    int[] res = new int[2 * k];
+    Arrays.fill(arr, 0);
+    dfs(arr, k, res);
+    return isValid(res) ? res : null;
   }
 
-  private void helper(int[] array, int curNumber, int len, int[] result) {
-    if (curNumber == 0) {
-      // base case
-      if (isValid(array, len)) {
-        for (int i = 0; i < len; i++) {
-          result[i] = array[i];
+  private void dfs(int[] arr, int curNum, int[] res) {
+    if(curNum == 0) {
+      if(isValid(arr)){
+        for(int i = 0; i < arr.length; i++) {
+          res[i] = arr[i];
         }
       }
       return;
     }
 
-    int spaceNeededAfter = curNumber + 1;
-    for (int i = 0; i < len - spaceNeededAfter; i++) {
-      if (array[i] == 0 && array[i + spaceNeededAfter] == 0) { // not filled yet
-        array[i] = curNumber;
-        array[i + spaceNeededAfter] = curNumber;
-        helper(array, curNumber - 1, len, result);
-        array[i] = 0;
-        array[i + spaceNeededAfter] = 0;
+    int spaceNeedAfter = curNum + 1;// filling from k, k-1, k-2 ... 0
+    for(int i = 0; i < arr.length - spaceNeedAfter;i++) {
+      if(arr[i] == 0 && arr[i + spaceNeedAfter] == 0) { // not fill
+        arr[i] = curNum;
+        arr[i + spaceNeedAfter] = curNum;
+        dfs(arr, curNum - 1, res);
+        arr[i] = 0;
+        arr[i + spaceNeedAfter] = 0;
       }
     }
   }
 
-  private boolean isValid(int[] array, int len) {
-    for (int i = 0; i < len; i++) {
-      if (array[i] == 0) {
-        return false;
-      }
+  private boolean isValid(int[] arr) {
+    for(int i = 0; i < arr.length; i++){
+      if(arr[i] == 0) return false;
     }
     return true;
   }
