@@ -1,6 +1,6 @@
-package alg.oa.google.lc.impl;
+package alg.oa.google.impl;
 
-import alg.oa.google.lc.OddEvenJumps;
+import alg.oa.google.OddEvenJumps;
 
 /*
 Time exceed, pass 61/64 test leetcode cases

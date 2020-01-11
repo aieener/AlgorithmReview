@@ -1,4 +1,4 @@
-package alg.laioffer.class34.adv7dp4;
+package alg.laioffer.class34.adv7dp4.impl;
 
 /**
  * 1D DP : 切绳子，单词，palindrome

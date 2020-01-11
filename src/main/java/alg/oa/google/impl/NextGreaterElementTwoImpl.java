@@ -1,6 +1,6 @@
-package alg.oa.google.lc.impl;
+package alg.oa.google.impl;
 
-import alg.oa.google.lc.NextGreaterElementTwo;
+import alg.oa.google.NextGreaterElementTwo;
 
 import java.util.Deque;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package alg.oa.google.lc.impl;
+package alg.oa.google.impl;
 
 import java.util.HashSet;
 import java.util.Set;

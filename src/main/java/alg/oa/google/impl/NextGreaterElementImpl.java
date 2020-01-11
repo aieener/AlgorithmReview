@@ -1,6 +1,6 @@
-package alg.oa.google.lc.impl;
+package alg.oa.google.impl;
 
-import alg.oa.google.lc.NextGreaterElement;
+import alg.oa.google.NextGreaterElement;
 
 import java.util.Deque;
 import java.util.HashMap;

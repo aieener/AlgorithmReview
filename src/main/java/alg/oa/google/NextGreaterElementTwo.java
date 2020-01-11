@@ -1,4 +1,4 @@
-package alg.oa.google.lc;
+package alg.oa.google;
 
 /*
 

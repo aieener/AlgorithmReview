@@ -12,7 +12,7 @@ public class ThreeSumImpl implements ThreeSum {
         Arrays.sort(array);
         List<List<Integer>> result = new ArrayList<>();
         for (int i = 0; i < array.length - 2; i++) {
-            if (i > 0 && array[i] == array[i - 1]) continue;
+            if (i > 0 && array[i] == array[i - 1]) continue; // DEDUP
             int curTar = target - array[i];
             twoSum(array, i, curTar, result);
         }
@@ -28,7 +28,7 @@ public class ThreeSumImpl implements ThreeSum {
                 res.add(Arrays.asList(new Integer[]{array[leftBorder], array[start], array[end]}));
                 start++;
                 end--;
-                while (start < end && array[start] == array[start - 1]) start++;
+                while (start < end && array[start] == array[start - 1]) start++; // DEDUP
             } else if (curVal > target) {
                 end--;
             } else {
