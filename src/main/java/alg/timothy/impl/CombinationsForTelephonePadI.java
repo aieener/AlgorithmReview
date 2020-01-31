@@ -30,14 +30,14 @@ public class CombinationsForTelephonePadI {
     Queue<StringBuilder> queue = new LinkedList<>();
     queue.offer(sb);
     while (!queue.isEmpty()) {
-      StringBuilder cur = queue.poll();
-      if(cur.length() == input.size()) {
-        res.add(cur.toString());
+      StringBuilder toExpand = queue.poll();
+      if(toExpand.length() == input.size()) {
+        res.add(toExpand.toString());
       } else {
-        for(char i : dict.get(input.get(cur.length())).toCharArray()){
-          StringBuilder toExpand = new StringBuilder(cur);
-          toExpand.append(i);
-          queue.offer(toExpand);
+        for(char i : dict.get(input.get(toExpand.length())).toCharArray()){
+          StringBuilder generate = new StringBuilder(toExpand);
+          generate.append(i);
+          queue.offer(generate);
         }
       }
     }

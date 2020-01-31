@@ -2,7 +2,7 @@ package alg.imooc.dp.impl;
 
 import alg.imooc.dp.BestTimeToBuyAndSellStockWithCooldown;
 
-public class BestTimeToBuyStockWithCooldownIMpl implements BestTimeToBuyAndSellStockWithCooldown {
+public class BestTimeToBuyAndSellStockWithCooldownIMpl implements BestTimeToBuyAndSellStockWithCooldown {
     @Override
     public int maxProfit(int[] prices) {
         if(prices == null || prices.length <= 1) return 0;

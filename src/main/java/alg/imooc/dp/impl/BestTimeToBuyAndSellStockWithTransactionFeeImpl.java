@@ -1,14 +1,13 @@
 package alg.imooc.dp.impl;
 
-import alg.imooc.dp.BestTimeToBuyStockWithTransactionFee;
+import alg.imooc.dp.BestTimeToBuyAndSellStockWithTransactionFee;
 
-public class BestTimeToBuyStockWithTransactionFeeImpl implements BestTimeToBuyStockWithTransactionFee {
+public class BestTimeToBuyAndSellStockWithTransactionFeeImpl implements BestTimeToBuyAndSellStockWithTransactionFee {
     @Override
     public int maxProfit(int[] prices, int fee) {
         if(prices == null || prices.length <= 1) return 0;
         int[] own = new int[prices.length]; // own[i] represents minimal debt one could own for range 0, i
         int[] sell = new int[prices.length]; // sell[i] represent the maxProfit one could get for range 0, i
-        int res = 0;
 
         // base case:
         sell[0] = 0; //how much we gain

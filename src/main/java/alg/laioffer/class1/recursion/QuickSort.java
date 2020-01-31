@@ -30,7 +30,6 @@ public class QuickSort {
       return;
     }
     int pivotIdx = (int) (Math.random() * ((end - start) + 1)) + start;
-//    int pivotIdx = start + (end - start) / 2;
     int pivot = array[pivotIdx];
 
     // swap pivot to the end

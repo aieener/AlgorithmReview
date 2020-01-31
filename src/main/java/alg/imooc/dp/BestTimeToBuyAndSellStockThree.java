@@ -1,5 +1,5 @@
 package alg.imooc.dp;
 
-public interface BestTimeToBuyStockThree {
+public interface BestTimeToBuyAndSellStockThree {
     int maxProfit(int[] prices);
 }

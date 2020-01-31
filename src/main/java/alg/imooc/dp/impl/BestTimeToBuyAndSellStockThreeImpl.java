@@ -1,8 +1,8 @@
 package alg.imooc.dp.impl;
 
-import alg.imooc.dp.BestTimeToBuyStockThree;
+import alg.imooc.dp.BestTimeToBuyAndSellStockThree;
 
-public class BestTimeToBuyStockThreeImpl implements BestTimeToBuyStockThree {
+public class BestTimeToBuyAndSellStockThreeImpl implements BestTimeToBuyAndSellStockThree {
     @Override
     public int maxProfit(int[] prices) {
         if(prices == null || prices.length <= 1) return 0;
