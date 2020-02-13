@@ -43,11 +43,11 @@ public class Level {
     }
 
     // the parkingLot only cares about spots
-    // it doesn't matter which car actually leaves
+    // it doesn't matter which car actually leaves to spots
     boolean leave (Vehicle v) {
         for(ParkingSpot s: spots) {
             if(s.getVehicle() == v) {
-                s.leave();
+                s.leave(); // spot don't care which car leaves
                 return true;
             }
         }

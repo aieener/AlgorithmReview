@@ -2,85 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="700cd87f-6a7f-4bcb-afc8-512dcfb89844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/MinCostToConnectAllNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/MinCostToConnectRopes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/MinCostToRepairEdges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/OptimalUtilization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/PartitionLabels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/PrisonCellAfterNDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/ReorderDataInLogFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/SubtreeWithMaxAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/TreasuryIslandI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/TreasuryIslandII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/CountSubStringWithKDistinctChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/MergeIntevals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/PointOfLattice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/RollDice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/CopyListWithRandPtr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/CriticalRouters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/FindPairWithGivenSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/NumOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/ProductSuggestions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/SearchA2DMatrixII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/SubtreeOfAnotherTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/TopNBuzzwords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/ZombieInMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/ClosestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/CommonWordSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/ConvertSortedListToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/CutMetalSurplus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/HitCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/IncreasingPathInBinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/InsertLayerToBinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/KthLargestElemInArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/MaxRecAreaUnderBudget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/NumberOfIsland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/ReverseLLAndLLParlindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/ShoppingOffers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/ShortestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/SortColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/StockProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/TopKSimilarElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/WordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/ClosestNumberImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/CommonWordSizeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/ConvertSortedListToBSTImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/CutMetalSurplusBruteForceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/CutMetalSurplusDFSMemoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/HitCounterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/HitCounterQueueImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/InsertLayerToBinTreeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/KthLargestElemInArrImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/NumberOfIslandsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/ShoppingOffersImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/SortColorsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/TopKSimilarElementImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/ValidAnagramImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/WordBreakImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/BestTimeToBuyAndSellStockFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/BestTimeToBuyAndSellStockTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/PartitionEqualSubsetSumKnapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/BestTimeToBuyAndSellAndSellStockImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/BestTimeToBuyAndSellStockFourImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/BestTimeToBuyAndSellStockTwoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/CoinChangeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/PartitionEqualSubsetKnapsackImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/util/PrintBinTreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/DeleteInBSTImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/controller/VendingMachineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/error/NotFullPaidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/error/NotSufficientChangeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/error/SoldOutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/model/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/repository/VendingMachineRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/repository/VendingMachineRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/service/VendingMachineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/service/VendingMachineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO1/DiameterOfBinTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO1/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO1/WordBreakIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/BestMettingPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/CountDups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/KthLargestElem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/MaxPointsOnALine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/findKClosestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/reverseLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/reverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/CopyListWithRandPtr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/FindPairWithGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/NumOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/SearchA2DMatrixII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/ConcatenatedStringLenWithUniqChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/FairIndexes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/JumGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/LargeInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/LexicographicallySmallestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/LightBulbSwitcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/LongestSemiAlternatingSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/LongestSubstringWithout3ContiguousOccurLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxCharBothUpperAndLower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxInsertToObtainStringWithout3Sonsecutivea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxLenOfAConcatenatedStrWithUniqChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxNetworkRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxPossibleValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxValueKSuchThatArrayHasKAndNegK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MeetingRoomII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinDeletionsToMakeFrequencyOfEachLetterUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinDistanceToObtainStrInRightFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinMoveToMakeStringWithout3IdenticalConsecutiveLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinStepsToMakePilesEqualHeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinSwapsToGroupRedBalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinSwapsToMakePalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/NumWithEqualDigitSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/ParticleVelocity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/PartitionArrayIntoNSubsetsWithBalancedSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/PlaneSearReservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/StringWithout3IdenticalConsecutiveLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/UniqIntegersThatSumUpTo0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/WidestPathWithoutTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/DayOfTheWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/DistributeCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/Fib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/MajorityElem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/QueueByTwoStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/RotateString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/removeKdigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/BestTimeToBuyStockThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/BestTimeToBuyAndSellStockThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/BestTimeToBuyStockWithTransactionFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/BestTimeToBuyAndSellStockWithTransactionFee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/BestTimeToBuyStockThreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/BestTimeToBuyAndSellStockThreeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/BestTimeToBuyStockWithCooldownIMpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/BestTimeToBuyAndSellStockWithCooldownIMpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/BestTimeToBuyStockWithTransactionFeeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/imooc/dp/impl/BestTimeToBuyAndSellStockWithTransactionFeeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class1/recursion/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class1/recursion/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/MedianOfTwoSortedArrImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class33/adv6binsearchLRU/impl/MedianOfTwoSortedArrImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/timothy/impl/CombinationsForTelephonePadI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/timothy/impl/CombinationsForTelephonePadI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/MinCostToConnectAllNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/MinCostToConnectAllNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/MinCostToConnectRopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/MinCostToConnectRopes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/MinCostToRepairEdges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/MinCostToRepairEdges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/OptimalUtilization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/OptimalUtilization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/PartitionLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/PartitionLabels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/PrisonCellAfterNDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/PrisonCellAfterNDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/ReorderDataInLogFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/ReorderDataInLogFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/SubtreeWithMaxAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/SubtreeWithMaxAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/TreasuryIslandI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/TreasuryIslandI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/TreasuryIslandII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/TreasuryIslandII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/CountSubStringWithKDistinctChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq1/CountSubStringWithKDistinctChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/MergeIntevals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq1/MergeIntevals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/PointOfLattice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq1/PointOfLattice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/RollDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq1/RollDice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq1/SpiralMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/CopyListWithRandPtr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/CriticalRouters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/CriticalRouters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/FindPairWithGivenSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/MergeTwoSortedLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/NumOfIslands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/ProductSuggestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/ProductSuggestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/SearchA2DMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO1/SearchA2DMatrixII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/SubtreeOfAnotherTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/SubtreeOfAnotherTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/TopNBuzzwords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/TopNBuzzwords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/ZombieInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/ZombieInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/audible/impl/CommonWordSizeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/CommonWordSizeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/audible/impl/CutMetalSurplusDFSMemoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/audible/impl/KthLargestElemInArrImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/KthLargestElemInArrImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/audible/impl/NumberOfIslandsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/NumberOfIslandsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class25/adv2/impl/LargestNumSmallestInBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class25/adv2/impl/LargestNumSmallestInBSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/impl/LongestAscendingSebSeqImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/impl/LongestAscendingSebSeqImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class4/linkedlist/impl/MergeTwoSortedLLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class4/linkedlist/impl/MergeTwoSortedLLImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining1/MoveZeroII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining1/MoveZeroII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingmachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingmachine/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingmachine/VendingMachineImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingmachine/VendingMachineImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood2/parkinglot/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood2/parkinglot/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood4/blackjack/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood4/blackjack/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/prac17/hashmap/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/prac17/hashmap/MyHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/penn/bloomberg/KthSmallestBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/penn/bloomberg/KthSmallestBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +167,8 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/error" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -151,14 +178,21 @@
       <recent name="alg.laioffer.class4.linkedlist" />
       <recent name="alg.laioffer.class3.stackqueue.impl" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="alg.audible.impl" />
+      <recent name="alg.laioffer.ood.vendingMVC.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/error" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TreasuryIslandII">
-    <configuration name="CutMetalSurplusBruteForceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.audible.impl.CutMetalSurplusBruteForceImpl" />
+  <component name="RunManager" selected="Application.LongestSemiAlternatingSubstring">
+    <configuration name="LexicographicallySmallestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.oa.microsoftRealOA.LexicographicallySmallestString" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.audible.impl.*" />
+          <option name="PATTERN" value="alg.oa.microsoftRealOA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CutMetalSurplusDFSMemoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.audible.impl.CutMetalSurplusDFSMemoImpl" />
+    <configuration name="LongestSemiAlternatingSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.oa.microsoftRealOA.LongestSemiAlternatingSubstring" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.audible.impl.*" />
+          <option name="PATTERN" value="alg.oa.microsoftRealOA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingOffersImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.audible.impl.ShoppingOffersImpl" />
+    <configuration name="LongestSubstringWithout3ContiguousOccurLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.oa.microsoftRealOA.LongestSubstringWithout3ContiguousOccurLetter" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.audible.impl.*" />
+          <option name="PATTERN" value="alg.oa.microsoftRealOA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreasuryIslandI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.amazon2020OA.freq0.TreasuryIslandI" />
+    <configuration name="MinDeletionsToMakeFrequencyOfEachLetterUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.oa.microsoftRealOA.MinDeletionsToMakeFrequencyOfEachLetterUnique" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.amazon2020OA.freq0.*" />
+          <option name="PATTERN" value="alg.oa.microsoftRealOA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreasuryIslandII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.amazon2020OA.freq0.TreasuryIslandII" />
+    <configuration name="StringWithout3IdenticalConsecutiveLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.oa.microsoftRealOA.StringWithout3IdenticalConsecutiveLetters" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alg.amazon2020OA.freq0.*" />
+          <option name="PATTERN" value="alg.oa.microsoftRealOA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreasuryIslandII" />
-        <item itemvalue="Application.TreasuryIslandI" />
-        <item itemvalue="Application.CutMetalSurplusBruteForceImpl" />
-        <item itemvalue="Application.CutMetalSurplusDFSMemoImpl" />
-        <item itemvalue="Application.ShoppingOffersImpl" />
+        <item itemvalue="Application.LongestSemiAlternatingSubstring" />
+        <item itemvalue="Application.StringWithout3IdenticalConsecutiveLetters" />
+        <item itemvalue="Application.MinDeletionsToMakeFrequencyOfEachLetterUnique" />
+        <item itemvalue="Application.LexicographicallySmallestString" />
+        <item itemvalue="Application.LongestSubstringWithout3ContiguousOccurLetter" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +323,14 @@
       <workItem from="1578314772275" duration="4848000" />
       <workItem from="1578523834385" duration="9994000" />
       <workItem from="1578801903441" duration="2423000" />
-      <workItem from="1579215173421" duration="41570000" />
+      <workItem from="1579215173421" duration="50236000" />
+      <workItem from="1580683793437" duration="2443000" />
+      <workItem from="1580767442427" duration="771000" />
+      <workItem from="1580804330691" duration="206000" />
+      <workItem from="1581025839893" duration="752000" />
+      <workItem from="1581175751594" duration="1635000" />
+      <workItem from="1581279342416" duration="8262000" />
+      <workItem from="1581456903771" duration="16335000" />
     </task>
     <servers />
   </component>
@@ -310,6 +351,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="2352" y="278" key="#Vim_Emulation" timestamp="1581443995609">
+      <screen x="1792" y="23" width="1920" height="1177" />
+    </state>
+    <state x="2352" y="278" key="#Vim_Emulation/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581443995609" />
     <state x="721" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575142714490">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -319,8 +364,8 @@
     </state>
     <state x="1065" y="156" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1575088018464" />
     <state x="1065" y="163" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575250511855" />
-    <state x="3031" y="301" key="#com.intellij.ide.util.MemberChooser" timestamp="1580397234484">
-      <screen x="1792" y="23" width="1920" height="1177" />
+    <state x="1167" y="282" key="#com.intellij.ide.util.MemberChooser" timestamp="1580617069993">
+      <screen x="31" y="23" width="1761" height="1097" />
     </state>
     <state x="-484" y="258" key="#com.intellij.ide.util.MemberChooser/-1366.23.1366.1001/0.23.1792.1097@-1366.23.1366.1001" timestamp="1575223387669" />
     <state x="-664" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576125655322" />
@@ -333,7 +378,7 @@
     <state x="1322" y="319" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1257@0.23.2048.1257" timestamp="1576040107843" />
     <state x="3031" y="301" key="#com.intellij.ide.util.MemberChooser/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1580397234484" />
     <state x="1167" y="282" key="#com.intellij.ide.util.MemberChooser/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580390673430" />
-    <state x="1167" y="282" key="#com.intellij.ide.util.MemberChooser/31.23.1761.1097@31.23.1761.1097" timestamp="1578809679100" />
+    <state x="1167" y="282" key="#com.intellij.ide.util.MemberChooser/31.23.1761.1097@31.23.1761.1097" timestamp="1580617069993" />
     <state x="-757" y="311" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576109503405">
       <screen x="-1873" y="-57" width="1873" height="1177" />
     </state>
@@ -354,15 +399,15 @@
     <state x="1108" y="461" width="481" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1097@0.23.1792.1097" timestamp="1575779421455" />
     <state x="1266" y="525" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.2048.1257@0.23.2048.1257" timestamp="1575849695853" />
     <state x="1120" y="461" width="508" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580006388910" />
-    <state x="2444" y="23" width="639" height="1177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579835258031">
-      <screen x="1792" y="23" width="1920" height="1177" />
+    <state x="629" y="23" width="639" height="1177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580617285890">
+      <screen x="31" y="23" width="1761" height="1097" />
     </state>
     <state x="-1247" y="-57" width="586" height="1177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577034258614" />
     <state x="522" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576982255025" />
     <state x="609" y="23" width="476" height="1097" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575378057069" />
     <state x="696" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2048.1257@0.23.2048.1257" timestamp="1575953219696" />
     <state x="2444" y="23" width="639" height="1177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1579835258031" />
-    <state x="629" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/31.23.1761.1097@31.23.1761.1097" timestamp="1578809536059" />
+    <state x="629" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/31.23.1761.1097@31.23.1761.1097" timestamp="1580617285890" />
     <state x="676" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578768013224">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -372,12 +417,13 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="646" y="251" key="#xdebugger.XInspectDialog/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576428283804" />
-    <state x="1235" y="538" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1575850959477">
-      <screen x="0" y="23" width="2048" height="1257" />
+    <state x="1093" y="472" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580612223674">
+      <screen x="31" y="23" width="1761" height="1097" />
     </state>
     <state x="1235" y="538" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2048.1257@0.23.2048.1257" timestamp="1575850959477" />
-    <state width="1719" height="244" key="GridCell.Tab.0.bottom" timestamp="1580441520371">
-      <screen x="31" y="23" width="1761" height="1097" />
+    <state x="1093" y="472" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/31.23.1761.1097@31.23.1761.1097" timestamp="1580612223674" />
+    <state width="1847" height="139" key="GridCell.Tab.0.bottom" timestamp="1581562027173">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.bottom/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000213" />
     <state width="1831" height="146" key="GridCell.Tab.0.bottom/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272544" />
@@ -390,11 +436,11 @@
     <state width="1021" height="189" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.bottom/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
     <state width="1463" height="226" key="GridCell.Tab.0.bottom/31.23.1505.937@31.23.1505.937" timestamp="1580064313569" />
-    <state width="1719" height="191" key="GridCell.Tab.0.bottom/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1580061838635" />
-    <state width="1719" height="244" key="GridCell.Tab.0.bottom/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580441520371" />
-    <state width="1719" height="291" key="GridCell.Tab.0.bottom/31.23.1761.1097@31.23.1761.1097" timestamp="1578788673885" />
-    <state width="1719" height="244" key="GridCell.Tab.0.center" timestamp="1580441520369">
-      <screen x="31" y="23" width="1761" height="1097" />
+    <state width="1847" height="139" key="GridCell.Tab.0.bottom/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581562027173" />
+    <state width="1878" height="139" key="GridCell.Tab.0.bottom/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460720314" />
+    <state width="1719" height="226" key="GridCell.Tab.0.bottom/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433163" />
+    <state width="1847" height="139" key="GridCell.Tab.0.center" timestamp="1581562027173">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.center/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.center/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272543" />
@@ -407,11 +453,11 @@
     <state width="1021" height="189" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.center/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
     <state width="1463" height="226" key="GridCell.Tab.0.center/31.23.1505.937@31.23.1505.937" timestamp="1580064313568" />
-    <state width="1719" height="191" key="GridCell.Tab.0.center/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1580061838634" />
-    <state width="1719" height="244" key="GridCell.Tab.0.center/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580441520369" />
-    <state width="1719" height="291" key="GridCell.Tab.0.center/31.23.1761.1097@31.23.1761.1097" timestamp="1578788673884" />
-    <state width="1719" height="244" key="GridCell.Tab.0.left" timestamp="1580441520369">
-      <screen x="31" y="23" width="1761" height="1097" />
+    <state width="1847" height="139" key="GridCell.Tab.0.center/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581562027173" />
+    <state width="1878" height="139" key="GridCell.Tab.0.center/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460720313" />
+    <state width="1719" height="226" key="GridCell.Tab.0.center/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433163" />
+    <state width="1847" height="139" key="GridCell.Tab.0.left" timestamp="1581562027172">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.left/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.left/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272542" />
@@ -424,11 +470,11 @@
     <state width="1021" height="189" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022643" />
     <state width="2006" height="128" key="GridCell.Tab.0.left/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
     <state width="1463" height="226" key="GridCell.Tab.0.left/31.23.1505.937@31.23.1505.937" timestamp="1580064313567" />
-    <state width="1719" height="191" key="GridCell.Tab.0.left/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1580061838634" />
-    <state width="1719" height="244" key="GridCell.Tab.0.left/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580441520369" />
-    <state width="1719" height="291" key="GridCell.Tab.0.left/31.23.1761.1097@31.23.1761.1097" timestamp="1578788673884" />
-    <state width="1719" height="244" key="GridCell.Tab.0.right" timestamp="1580441520370">
-      <screen x="31" y="23" width="1761" height="1097" />
+    <state width="1847" height="139" key="GridCell.Tab.0.left/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581562027172" />
+    <state width="1878" height="139" key="GridCell.Tab.0.left/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460720312" />
+    <state width="1719" height="226" key="GridCell.Tab.0.left/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433162" />
+    <state width="1847" height="139" key="GridCell.Tab.0.right" timestamp="1581562027173">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.right/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.right/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272543" />
@@ -441,11 +487,11 @@
     <state width="1021" height="189" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.right/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
     <state width="1463" height="226" key="GridCell.Tab.0.right/31.23.1505.937@31.23.1505.937" timestamp="1580064313568" />
-    <state width="1719" height="191" key="GridCell.Tab.0.right/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1580061838635" />
-    <state width="1719" height="244" key="GridCell.Tab.0.right/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580441520370" />
-    <state width="1719" height="291" key="GridCell.Tab.0.right/31.23.1761.1097@31.23.1761.1097" timestamp="1578788673885" />
-    <state width="1719" height="226" key="GridCell.Tab.1.bottom" timestamp="1580266190768">
-      <screen x="31" y="23" width="1761" height="1097" />
+    <state width="1847" height="139" key="GridCell.Tab.0.right/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581562027173" />
+    <state width="1878" height="139" key="GridCell.Tab.0.right/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460720313" />
+    <state width="1719" height="226" key="GridCell.Tab.0.right/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433163" />
+    <state width="1847" height="226" key="GridCell.Tab.1.bottom" timestamp="1581559159446">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.bottom/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000183" />
     <state width="1831" height="208" key="GridCell.Tab.1.bottom/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253708" />
@@ -458,11 +504,11 @@
     <state width="1021" height="293" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179892" />
     <state width="2006" height="59" key="GridCell.Tab.1.bottom/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648831" />
     <state width="1463" height="226" key="GridCell.Tab.1.bottom/31.23.1505.937@31.23.1505.937" timestamp="1580064313436" />
-    <state width="1719" height="275" key="GridCell.Tab.1.bottom/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1580061538617" />
-    <state width="1719" height="226" key="GridCell.Tab.1.bottom/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580266190768" />
-    <state width="1719" height="291" key="GridCell.Tab.1.bottom/31.23.1761.1097@31.23.1761.1097" timestamp="1578788673886" />
-    <state width="1719" height="226" key="GridCell.Tab.1.center" timestamp="1580266190766">
-      <screen x="31" y="23" width="1761" height="1097" />
+    <state width="1847" height="226" key="GridCell.Tab.1.bottom/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581559159446" />
+    <state width="1878" height="226" key="GridCell.Tab.1.bottom/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460689535" />
+    <state width="1719" height="226" key="GridCell.Tab.1.bottom/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433164" />
+    <state width="1847" height="226" key="GridCell.Tab.1.center" timestamp="1581559159445">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.center/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000182" />
     <state width="1831" height="208" key="GridCell.Tab.1.center/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253708" />
@@ -475,11 +521,11 @@
     <state width="1021" height="293" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179891" />
     <state width="2006" height="59" key="GridCell.Tab.1.center/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648830" />
     <state width="1463" height="226" key="GridCell.Tab.1.center/31.23.1505.937@31.23.1505.937" timestamp="1580064313436" />
-    <state width="1719" height="275" key="GridCell.Tab.1.center/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1580061538616" />
-    <state width="1719" height="226" key="GridCell.Tab.1.center/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580266190766" />
-    <state width="1719" height="291" key="GridCell.Tab.1.center/31.23.1761.1097@31.23.1761.1097" timestamp="1578788673886" />
-    <state width="1719" height="226" key="GridCell.Tab.1.left" timestamp="1580266190766">
-      <screen x="31" y="23" width="1761" height="1097" />
+    <state width="1847" height="226" key="GridCell.Tab.1.center/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581559159445" />
+    <state width="1878" height="226" key="GridCell.Tab.1.center/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460689535" />
+    <state width="1719" height="226" key="GridCell.Tab.1.center/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433164" />
+    <state width="1847" height="226" key="GridCell.Tab.1.left" timestamp="1581559159445">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.left/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000182" />
     <state width="1831" height="208" key="GridCell.Tab.1.left/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253707" />
@@ -492,11 +538,11 @@
     <state width="1021" height="293" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179891" />
     <state width="2006" height="59" key="GridCell.Tab.1.left/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648830" />
     <state width="1463" height="226" key="GridCell.Tab.1.left/31.23.1505.937@31.23.1505.937" timestamp="1580064313436" />
-    <state width="1719" height="275" key="GridCell.Tab.1.left/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1580061538616" />
-    <state width="1719" height="226" key="GridCell.Tab.1.left/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580266190766" />
-    <state width="1719" height="291" key="GridCell.Tab.1.left/31.23.1761.1097@31.23.1761.1097" timestamp="1578788673885" />
-    <state width="1719" height="226" key="GridCell.Tab.1.right" timestamp="1580266190767">
-      <screen x="31" y="23" width="1761" height="1097" />
+    <state width="1847" height="226" key="GridCell.Tab.1.left/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581559159445" />
+    <state width="1878" height="226" key="GridCell.Tab.1.left/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460689535" />
+    <state width="1719" height="226" key="GridCell.Tab.1.left/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433163" />
+    <state width="1847" height="226" key="GridCell.Tab.1.right" timestamp="1581559159446">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state width="1750" height="293" key="GridCell.Tab.1.right/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000183" />
     <state width="1831" height="208" key="GridCell.Tab.1.right/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124253708" />
@@ -509,22 +555,23 @@
     <state width="1021" height="293" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575748179891" />
     <state width="2006" height="59" key="GridCell.Tab.1.right/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648830" />
     <state width="1463" height="226" key="GridCell.Tab.1.right/31.23.1505.937@31.23.1505.937" timestamp="1580064313436" />
-    <state width="1719" height="275" key="GridCell.Tab.1.right/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1580061538617" />
-    <state width="1719" height="226" key="GridCell.Tab.1.right/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580266190767" />
-    <state width="1719" height="291" key="GridCell.Tab.1.right/31.23.1761.1097@31.23.1761.1097" timestamp="1578788673886" />
-    <state x="-1096" y="102" key="SettingsEditor" timestamp="1576118439467">
-      <screen x="-1873" y="-57" width="1873" height="1177" />
+    <state width="1847" height="226" key="GridCell.Tab.1.right/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581559159446" />
+    <state width="1878" height="226" key="GridCell.Tab.1.right/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460689535" />
+    <state width="1719" height="226" key="GridCell.Tab.1.right/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433164" />
+    <state x="2588" y="182" key="SettingsEditor" timestamp="1581444174464">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state x="-997" y="158" key="SettingsEditor/-1366.23.1366.1001/0.23.1792.1097@-1366.23.1366.1001" timestamp="1575223276949" />
     <state x="-1096" y="102" key="SettingsEditor/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576118439467" />
     <state x="743" y="163" key="SettingsEditor/0.23.1792.1041@0.23.1792.1041" timestamp="1575088026337" />
     <state x="743" y="171" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1575831721971" />
+    <state x="2588" y="182" key="SettingsEditor/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581444174464" />
     <state x="1129" y="482" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1575250502260">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="1129" y="482" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575250502260" />
-    <state x="572" y="395" key="com.intellij.ide.util.TipDialog" timestamp="1579215174596">
-      <screen x="31" y="23" width="1761" height="1097" />
+    <state x="2382" y="422" key="com.intellij.ide.util.TipDialog" timestamp="1581456904249">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state x="-947" y="363" key="com.intellij.ide.util.TipDialog/-1366.23.1366.1001/0.23.1792.1097@-1366.23.1366.1001" timestamp="1575223294246" />
     <state x="-1309" y="343" key="com.intellij.ide.util.TipDialog/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577153669669" />
@@ -533,7 +580,8 @@
     <state x="-1309" y="342" key="com.intellij.ide.util.TipDialog/0.23.1792.1097/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1577755828516" />
     <state x="550" y="396" key="com.intellij.ide.util.TipDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575735107742" />
     <state x="629" y="450" key="com.intellij.ide.util.TipDialog/0.23.2048.1257@0.23.2048.1257" timestamp="1576040004817" />
-    <state x="572" y="395" key="com.intellij.ide.util.TipDialog/31.23.1761.1097@31.23.1761.1097" timestamp="1579215174596" />
+    <state x="2382" y="422" key="com.intellij.ide.util.TipDialog/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581456904249" />
+    <state x="572" y="395" key="com.intellij.ide.util.TipDialog/31.23.1761.1097@31.23.1761.1097" timestamp="1581175754525" />
     <state x="583" y="396" key="com.intellij.ide.util.TipDialog/47.23.1745.1097@47.23.1745.1097" timestamp="1575142415583" />
     <state x="1012" y="267" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575522418506">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -560,8 +608,8 @@
     <state x="444" y="176" width="689" height="631" key="find.popup/0.23.1536.937/-1889.-57.1889.1177@0.23.1536.937" timestamp="1576642485024" />
     <state x="2347" y="215" width="862" height="793" key="find.popup/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1579835530977" />
     <state x="540" y="202" width="791" height="740" key="find.popup/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580412946459" />
-    <state x="479" y="264" width="867" height="744" key="search.everywhere.popup" timestamp="1580417440324">
-      <screen x="31" y="23" width="1761" height="1097" />
+    <state x="2280" y="282" width="945" height="798" key="search.everywhere.popup" timestamp="1581558193403">
+      <screen x="1792" y="23" width="1920" height="1177" />
     </state>
     <state x="-1018" y="244" width="670" height="676" key="search.everywhere.popup/-1366.23.1366.1001/0.23.1792.1097@-1366.23.1366.1001" timestamp="1575223198823" />
     <state x="-1408" y="202" width="927" height="796" key="search.everywhere.popup/0.23.1536.937/-1889.-57.1889.1177@-1889.-57.1889.1177" timestamp="1576378278088" />
@@ -570,9 +618,9 @@
     <state x="456" y="264" width="881" height="743" key="search.everywhere.popup/0.23.1792.1097/-1889.-57.1889.1177@0.23.1792.1097" timestamp="1578719816100" />
     <state x="457" y="265" width="879" height="741" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1575782495669" />
     <state x="522" y="300" width="1005" height="850" key="search.everywhere.popup/0.23.2048.1257@0.23.2048.1257" timestamp="1576039403365" />
-    <state x="2280" y="282" width="945" height="798" key="search.everywhere.popup/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1580397134852" />
-    <state x="479" y="264" width="867" height="744" key="search.everywhere.popup/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1580417440324" />
-    <state x="479" y="264" width="866" height="743" key="search.everywhere.popup/31.23.1761.1097@31.23.1761.1097" timestamp="1578808976341" />
+    <state x="2280" y="282" width="945" height="798" key="search.everywhere.popup/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581558193403" />
+    <state x="479" y="264" width="867" height="744" key="search.everywhere.popup/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581388815755" />
+    <state x="479" y="264" width="866" height="743" key="search.everywhere.popup/31.23.1761.1097@31.23.1761.1097" timestamp="1581179621499" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -606,11 +654,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/impl/GetCountArrImpl.java</url>
           <line>8</line>
           <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/alg/audible/impl/CommonWordSizeImpl.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -9,6 +9,7 @@ import java.util.Random;
     qSelect T = n + n/2 + 4/n + ... --> 2n
     qSort T = n + n + ....+ n ---> n log n
     approach 1: qSelect : space O(logn) [like doing a binSearch to find kth] | time ave: O(n), worst n^2
+    - space O(logn), time O(n)
     approach 2: heap : space O(k), time O(nlogk)
  */
 public class KthLargestElemInArrImpl implements KthLargestElemInArr {

@@ -36,7 +36,7 @@ public class Deck {
 
 
     public Card dealCard() {
-        return remainingCards()==0? null : cards.get(dealtIndex + 1);
+        return remainingCards()==0? null : cards.get(dealtIndex++);
 
     }
     public Card[] dealHand(int number) {

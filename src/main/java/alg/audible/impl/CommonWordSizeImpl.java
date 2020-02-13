@@ -50,6 +50,6 @@ public class CommonWordSizeImpl implements CommonWordSize {
     public static void main(String[] args) {
         String input = "        ths dog      went to the sto";
         CommonWordSize engine = new CommonWordSizeImpl();
-        engine.commonWordSize(input);
+        System.out.println(engine.commonWordSize(input));
     }
 }

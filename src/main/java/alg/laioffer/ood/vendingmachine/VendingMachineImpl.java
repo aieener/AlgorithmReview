@@ -4,13 +4,15 @@ package alg.laioffer.ood.vendingmachine;
 import java.util.*;
 
 public class VendingMachineImpl implements VendingMachine {
-    private Inventory<Coin> cashInventory = new Inventory<>();
-    private Inventory<Item> itemInventory = new Inventory<>();
+    private Inventory<Coin> cashInventory;
+    private Inventory<Item> itemInventory;
     private long totalSales;
     private Item curItem;
     private long curBalance;
 
     public VendingMachineImpl() {
+        cashInventory = new Inventory<>();
+        itemInventory = new Inventory<>();
         for(Coin c : Coin.values()) {
             cashInventory.put(c, 5);
         }
@@ -18,6 +20,9 @@ public class VendingMachineImpl implements VendingMachine {
         for(Item i : Item.values()) {
             itemInventory.put(i, 5);
         }
+        totalSales = 0;
+        curItem = null;
+        curBalance = 0;
     }
 
     @Override
@@ -46,7 +51,7 @@ public class VendingMachineImpl implements VendingMachine {
 
     @Override
     public Bucket<Item, List<Coin>> collectItemAndChange() {
-        Item item = collectItem();
+        Item item = collectItem(); // add try catch
         totalSales = totalSales + curItem.getPrice();
         List<Coin> change = collectChage();
         return new Bucket<>(item, change);
@@ -116,19 +121,15 @@ public class VendingMachineImpl implements VendingMachine {
                 if (balance >= Coin.QUARTER.getDenomination() && cashInventory.hasItem(Coin.QUARTER)) {
                     changes.add(Coin.QUARTER);
                     balance = balance - Coin.QUARTER.getDenomination();
-                    continue;
                 } else if (balance >= Coin.DIME.getDenomination() && cashInventory.hasItem(Coin.DIME)) {
                     changes.add(Coin.DIME);
                     balance = balance - Coin.DIME.getDenomination();
-                    continue;
                 } else if (balance >= Coin.NICKLE.getDenomination() && cashInventory.hasItem(Coin.NICKLE)) {
                     changes.add(Coin.NICKLE);
                     balance = balance - Coin.NICKLE.getDenomination();
-                    continue;
                 } else if (balance >= Coin.PENNY.getDenomination() && cashInventory.hasItem(Coin.PENNY)) {
                     changes.add(Coin.PENNY);
                     balance = balance - Coin.PENNY.getDenomination();
-                    continue;
                 } else {
                     throw new NotSufficientChangeException("Not Sufficient change!");
                 }

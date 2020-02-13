@@ -8,8 +8,8 @@ public class MergeTwoSortedLLImpl implements MergeTwoSortedLL {
     public ListNode merge(ListNode one, ListNode two) {
         ListNode dummyHead = new ListNode(0);
         ListNode cur = dummyHead;
-        while(one != null && two != null) {
-            if(one.value < two.value) {
+        while (one != null && two != null) {
+            if (one.value < two.value) {
                 cur.next = one;
                 one = one.next;
             } else {
@@ -18,16 +18,10 @@ public class MergeTwoSortedLLImpl implements MergeTwoSortedLL {
             }
             cur = cur.next;
         }
-
-        while(one != null) {
+        if(one != null) {
             cur.next = one;
-            one = one.next;
-            cur = cur.next;
-        }
-        while(two != null) {
+        } else if (two != null){
             cur.next = two;
-            two = two.next;
-            cur = cur.next;
         }
         return dummyHead.next;
     }

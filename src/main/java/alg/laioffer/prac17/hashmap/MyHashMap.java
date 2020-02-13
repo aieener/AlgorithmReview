@@ -5,7 +5,6 @@ import java.util.Arrays;
 /**
  * Created by yuding on 2/4/18.
  * Note: generic Templete to be add at the outside of class
- *
  */
 
 
@@ -36,11 +35,11 @@ public class MyHashMap<K, V> {
     public static final int INIT_CAP = 16;
     public static final double LOAD_FACTOR = 0.7;
 
-    private Node <K, V> [] array;
+    private Node<K, V>[] array;
     private int size;
 
     public MyHashMap() {
-        array = (Node<K, V> []) new Node[INIT_CAP];
+        array = (Node<K, V>[]) new Node[INIT_CAP];
         size = 0;
     }
 
@@ -79,7 +78,7 @@ public class MyHashMap<K, V> {
     public V get(K key) {
         Node<K, V> node = array[index(key)];
         while (node != null) {
-            if(equalsKey(node.getKey(),key)) {
+            if (equalsKey(node.getKey(), key)) {
                 return node.getValue();
             }
             node = node.next;
@@ -90,7 +89,7 @@ public class MyHashMap<K, V> {
     public boolean containsKey(K key) {
         Node<K, V> node = array[index(key)];
         while (node != null) {
-            if(equalsKey(node.getKey(), key)) {
+            if (equalsKey(node.getKey(), key)) {
                 return true;
             }
             node = node.next;
@@ -100,10 +99,10 @@ public class MyHashMap<K, V> {
 
     public V put(K key, V value) {
         int i = index(key); // using the hash function to cal index
-        Node<K,V> node = array[i];
+        Node<K, V> node = array[i];
         // if K exist
         while (node != null) {
-            if(equalsKey(node.getKey(),key)) {
+            if (equalsKey(node.getKey(), key)) {
                 V oldeValue = node.getValue(); // record the old var
                 node.setValue(value); // set the new var
                 return oldeValue; // return the old var
@@ -112,22 +111,22 @@ public class MyHashMap<K, V> {
         }
 
         // if K not exist
-        Node <K, V> newEntry = new Node <> (key, value);
+        Node<K, V> newEntry = new Node<>(key, value);
         newEntry.next = array[i];
         array[i] = newEntry;
         size++;
-        if(needRehasing()) {
+        if (needRehasing()) {
             rehash();
         }
         return null;
     }
 
-    public V remove( K key) {
+    public V remove(K key) {
         int i = index(key);
         Node<K, V> prev = null;
         Node<K, V> curr = array[i];
         while (curr != null) {
-            if(equalsKey(curr.getKey(), key)) {
+            if (equalsKey(curr.getKey(), key)) {
                 if (prev == null) {
                     // remove cur
                     array[i] = curr.next;
@@ -146,10 +145,10 @@ public class MyHashMap<K, V> {
     }
 
     private void rehash() {
-        Node<K, V> [] old = array;
-        array = (Node<K, V>[]) new Node [old.length * 2];
-        for(Node<K, V> e : old) {
-            while( e != null) {
+        Node<K, V>[] old = array;
+        array = (Node<K, V>[]) new Node[old.length * 2];
+        for (Node<K, V> e : old) {
+            while (e != null) {
                 Node<K, V> next = e.next;
 
                 int i = index(e.getKey()); // recalc the idx using hash func

@@ -14,9 +14,12 @@ public class LongestAscendingSebSeqImpl implements LongestAscendingSubSeq {
         for(int i = 1; i < array.length; i++) {
             int idx = binSearchLeftBiggest(refine, res, array[i]); // idx is the largest smaller value index
             if(idx == res) {
+                // idx == res means array[i] > refine[res]
                 res++;
                 refine[idx + 1] = array[i];
             } else {
+                // idx != res means array[i] < refine[idx + 1]
+
                 // refine[idx + 1] = Math.min(refine[idx+1], array[i]); // NOT necessary!
                 // this is because:
                 // key insight 2: refine is increasing, refine = <pos=1, val=2> < 2,3 > <3,5 > |  arr= 2 3 5  <-- 4 or 6
