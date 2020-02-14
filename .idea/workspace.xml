@@ -2,111 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="700cd87f-6a7f-4bcb-afc8-512dcfb89844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/DeleteInBSTImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/controller/VendingMachineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/error/NotFullPaidException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/error/NotSufficientChangeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/error/SoldOutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/model/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/repository/VendingMachineRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/repository/VendingMachineRepoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/service/VendingMachineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/service/VendingMachineServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO1/DiameterOfBinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO1/ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO1/WordBreakIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/BestMettingPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/CountDups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/KthLargestElem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/MaxPointsOnALine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/findKClosestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/reverseLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO2/reverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/CopyListWithRandPtr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/FindPairWithGivenSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/NumOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/SearchA2DMatrixII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/ConcatenatedStringLenWithUniqChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/FairIndexes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/JumGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/LargeInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/LexicographicallySmallestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/LightBulbSwitcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/LongestSemiAlternatingSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/LongestSubstringWithout3ContiguousOccurLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxCharBothUpperAndLower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxInsertToObtainStringWithout3Sonsecutivea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxLenOfAConcatenatedStrWithUniqChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxNetworkRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxPossibleValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MaxValueKSuchThatArrayHasKAndNegK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MeetingRoomII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinDeletionsToMakeFrequencyOfEachLetterUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinDistanceToObtainStrInRightFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinMoveToMakeStringWithout3IdenticalConsecutiveLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinStepsToMakePilesEqualHeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinSwapsToGroupRedBalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinSwapsToMakePalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/NumWithEqualDigitSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/ParticleVelocity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/PartitionArrayIntoNSubsetsWithBalancedSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/PlaneSearReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/StringWithout3IdenticalConsecutiveLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/UniqIntegersThatSumUpTo0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/WidestPathWithoutTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/DayOfTheWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/DistributeCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/Fib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/MajorityElem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/QueueByTwoStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/RotateString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/SortColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftleetcodeMock/removeKdigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/MinCostToConnectAllNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/MinCostToConnectAllNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/MinCostToConnectRopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/MinCostToConnectRopes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/MinCostToRepairEdges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/MinCostToRepairEdges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/OptimalUtilization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/OptimalUtilization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/PartitionLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/PartitionLabels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/PrisonCellAfterNDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/PrisonCellAfterNDays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/ReorderDataInLogFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/ReorderDataInLogFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/SubtreeWithMaxAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/SubtreeWithMaxAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/TreasuryIslandI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/TreasuryIslandI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq0/TreasuryIslandII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq0/TreasuryIslandII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/CountSubStringWithKDistinctChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq1/CountSubStringWithKDistinctChars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/MergeIntevals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq1/MergeIntevals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/PointOfLattice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq1/PointOfLattice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/RollDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq1/RollDice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq1/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq1/SpiralMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/CopyListWithRandPtr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/CriticalRouters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/CriticalRouters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/FindPairWithGivenSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/MergeTwoSortedLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/NumOfIslands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/ProductSuggestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/ProductSuggestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/SearchA2DMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/lintcode/amazon/novVO1/SearchA2DMatrixII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/SubtreeOfAnotherTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/SubtreeOfAnotherTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/TopNBuzzwords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/TopNBuzzwords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/amazon2020OA/freq2/ZombieInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/amazon2020OA/freq2/ZombieInMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/audible/impl/CommonWordSizeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/CommonWordSizeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/audible/impl/CutMetalSurplusDFSMemoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/audible/impl/KthLargestElemInArrImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/KthLargestElemInArrImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/audible/impl/NumberOfIslandsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/audible/impl/NumberOfIslandsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class25/adv2/impl/LargestNumSmallestInBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class25/adv2/impl/LargestNumSmallestInBSTImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/impl/LongestAscendingSebSeqImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class34/adv7dp4/impl/LongestAscendingSebSeqImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/class4/linkedlist/impl/MergeTwoSortedLLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/class4/linkedlist/impl/MergeTwoSortedLLImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining1/MoveZeroII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/crosstraining1/MoveZeroII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingmachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingmachine/VendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingmachine/VendingMachineImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingmachine/VendingMachineImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood2/parkinglot/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood2/parkinglot/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood4/blackjack/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/ood4/blackjack/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/laioffer/prac17/hashmap/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/laioffer/prac17/hashmap/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alg/penn/bloomberg/KthSmallestBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/penn/bloomberg/KthSmallestBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinStepsToMakePilesEqualHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alg/oa/microsoftRealOA/MinStepsToMakePilesEqualHeight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +83,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/alg/laioffer/ood/vendingMVC/error" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestSemiAlternatingSubstring">
+  <component name="RunManager" selected="Application.MinStepsToMakePilesEqualHeight">
     <configuration name="LexicographicallySmallestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="alg.oa.microsoftRealOA.LexicographicallySmallestString" />
       <module name="AlgorithmReview" />
@@ -213,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithout3ContiguousOccurLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.oa.microsoftRealOA.LongestSubstringWithout3ContiguousOccurLetter" />
+    <configuration name="MinDeletionsToMakeFrequencyOfEachLetterUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.oa.microsoftRealOA.MinDeletionsToMakeFrequencyOfEachLetterUnique" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
@@ -226,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinDeletionsToMakeFrequencyOfEachLetterUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg.oa.microsoftRealOA.MinDeletionsToMakeFrequencyOfEachLetterUnique" />
+    <configuration name="MinStepsToMakePilesEqualHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg.oa.microsoftRealOA.MinStepsToMakePilesEqualHeight" />
       <module name="AlgorithmReview" />
       <extension name="coverage">
         <pattern>
@@ -254,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinStepsToMakePilesEqualHeight" />
         <item itemvalue="Application.LongestSemiAlternatingSubstring" />
         <item itemvalue="Application.StringWithout3IdenticalConsecutiveLetters" />
         <item itemvalue="Application.MinDeletionsToMakeFrequencyOfEachLetterUnique" />
         <item itemvalue="Application.LexicographicallySmallestString" />
-        <item itemvalue="Application.LongestSubstringWithout3ContiguousOccurLetter" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +227,7 @@
       <workItem from="1581025839893" duration="752000" />
       <workItem from="1581175751594" duration="1635000" />
       <workItem from="1581279342416" duration="8262000" />
-      <workItem from="1581456903771" duration="16335000" />
+      <workItem from="1581456903771" duration="18235000" />
     </task>
     <servers />
   </component>
@@ -422,8 +319,8 @@
     </state>
     <state x="1235" y="538" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2048.1257@0.23.2048.1257" timestamp="1575850959477" />
     <state x="1093" y="472" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/31.23.1761.1097@31.23.1761.1097" timestamp="1580612223674" />
-    <state width="1847" height="139" key="GridCell.Tab.0.bottom" timestamp="1581562027173">
-      <screen x="1792" y="23" width="1920" height="1177" />
+    <state width="1719" height="139" key="GridCell.Tab.0.bottom" timestamp="1581647399555">
+      <screen x="31" y="23" width="1761" height="1097" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.bottom/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000213" />
     <state width="1831" height="146" key="GridCell.Tab.0.bottom/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272544" />
@@ -436,11 +333,11 @@
     <state width="1021" height="189" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.bottom/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
     <state width="1463" height="226" key="GridCell.Tab.0.bottom/31.23.1505.937@31.23.1505.937" timestamp="1580064313569" />
-    <state width="1847" height="139" key="GridCell.Tab.0.bottom/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581562027173" />
-    <state width="1878" height="139" key="GridCell.Tab.0.bottom/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460720314" />
+    <state width="1847" height="139" key="GridCell.Tab.0.bottom/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581565808162" />
+    <state width="1719" height="139" key="GridCell.Tab.0.bottom/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581647399555" />
     <state width="1719" height="226" key="GridCell.Tab.0.bottom/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433163" />
-    <state width="1847" height="139" key="GridCell.Tab.0.center" timestamp="1581562027173">
-      <screen x="1792" y="23" width="1920" height="1177" />
+    <state width="1719" height="139" key="GridCell.Tab.0.center" timestamp="1581647399554">
+      <screen x="31" y="23" width="1761" height="1097" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.center/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.center/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272543" />
@@ -453,11 +350,11 @@
     <state width="1021" height="189" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.center/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
     <state width="1463" height="226" key="GridCell.Tab.0.center/31.23.1505.937@31.23.1505.937" timestamp="1580064313568" />
-    <state width="1847" height="139" key="GridCell.Tab.0.center/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581562027173" />
-    <state width="1878" height="139" key="GridCell.Tab.0.center/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460720313" />
+    <state width="1847" height="139" key="GridCell.Tab.0.center/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581565808162" />
+    <state width="1719" height="139" key="GridCell.Tab.0.center/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581647399554" />
     <state width="1719" height="226" key="GridCell.Tab.0.center/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433163" />
-    <state width="1847" height="139" key="GridCell.Tab.0.left" timestamp="1581562027172">
-      <screen x="1792" y="23" width="1920" height="1177" />
+    <state width="1719" height="139" key="GridCell.Tab.0.left" timestamp="1581647399554">
+      <screen x="31" y="23" width="1761" height="1097" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.left/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.left/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272542" />
@@ -470,11 +367,11 @@
     <state width="1021" height="189" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022643" />
     <state width="2006" height="128" key="GridCell.Tab.0.left/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
     <state width="1463" height="226" key="GridCell.Tab.0.left/31.23.1505.937@31.23.1505.937" timestamp="1580064313567" />
-    <state width="1847" height="139" key="GridCell.Tab.0.left/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581562027172" />
-    <state width="1878" height="139" key="GridCell.Tab.0.left/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460720312" />
+    <state width="1847" height="139" key="GridCell.Tab.0.left/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581565808161" />
+    <state width="1719" height="139" key="GridCell.Tab.0.left/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581647399554" />
     <state width="1719" height="226" key="GridCell.Tab.0.left/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433162" />
-    <state width="1847" height="139" key="GridCell.Tab.0.right" timestamp="1581562027173">
-      <screen x="1792" y="23" width="1920" height="1177" />
+    <state width="1719" height="139" key="GridCell.Tab.0.right" timestamp="1581647399555">
+      <screen x="31" y="23" width="1761" height="1097" />
     </state>
     <state width="1750" height="189" key="GridCell.Tab.0.right/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1575932000212" />
     <state width="1831" height="146" key="GridCell.Tab.0.right/0.23.1536.937/-1873.-57.1873.1177@-1873.-57.1873.1177" timestamp="1576124272543" />
@@ -487,8 +384,8 @@
     <state width="1021" height="189" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575771022644" />
     <state width="2006" height="128" key="GridCell.Tab.0.right/0.23.2048.1257@0.23.2048.1257" timestamp="1576039648834" />
     <state width="1463" height="226" key="GridCell.Tab.0.right/31.23.1505.937@31.23.1505.937" timestamp="1580064313568" />
-    <state width="1847" height="139" key="GridCell.Tab.0.right/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581562027173" />
-    <state width="1878" height="139" key="GridCell.Tab.0.right/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581460720313" />
+    <state width="1847" height="139" key="GridCell.Tab.0.right/31.23.1761.1097/1792.23.1920.1177@1792.23.1920.1177" timestamp="1581565808162" />
+    <state width="1719" height="139" key="GridCell.Tab.0.right/31.23.1761.1097/1792.23.1920.1177@31.23.1761.1097" timestamp="1581647399555" />
     <state width="1719" height="226" key="GridCell.Tab.0.right/31.23.1761.1097@31.23.1761.1097" timestamp="1580659433163" />
     <state width="1847" height="226" key="GridCell.Tab.1.bottom" timestamp="1581559159446">
       <screen x="1792" y="23" width="1920" height="1177" />
